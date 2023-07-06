@@ -1,0 +1,103 @@
+[01:47:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:47:35] [ServerMain/INFO]: Loaded 7 recipes
+[01:47:36] [Server thread/INFO]: Starting minecraft server version 1.20
+[01:47:36] [Server thread/WARN]: ****************************
+[01:47:36] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[01:47:36] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[01:47:36] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[01:47:36] [Server thread/WARN]: ****************************
+[01:47:36] [Server thread/INFO]: Loading properties
+[01:47:36] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[01:47:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:47:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:47:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[01:47:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:47:39] [Server thread/INFO]: Default game type: SURVIVAL
+[01:47:39] [Server thread/INFO]: Generating keypair
+[01:47:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:47:39] [Server thread/INFO]: Using epoll channel type
+[01:47:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:47:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:47:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:47:40] [Server thread/INFO]: Preparing level "world"
+[01:47:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:47:56] [Server thread/INFO]: Time elapsed: 10149 ms
+[01:47:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:47:58] [Server thread/INFO]: Time elapsed: 2626 ms
+[01:47:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:47:59] [Server thread/INFO]: Time elapsed: 200 ms
+[01:47:59] [Server thread/INFO]: Running delayed init tasks
+[01:47:59] [Server thread/INFO]: Done (23.057s)! For help, type "help"
+[01:47:59] [Server thread/INFO]: Timings Reset
+[01:48:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[01:52:11] [User Authenticator #0/INFO]: UUID of player Tortug4sete is 2a621eb2-320e-4ca9-8a7f-9ea63a1306c4
+[01:52:16] [Server thread/INFO]: Tortug4sete joined the game
+[01:52:16] [Server thread/INFO]: Tortug4sete[/127.0.0.1:53040] logged in with entity id 514 at ([world_nether]145.97207000509434, 56.0, 72.93391454438301)
+[01:52:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5495ms or 109 ticks behind
+[01:52:31] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
+[01:52:31] [Server thread/INFO]: Tortug4sete left the game
+[01:52:54] [User Authenticator #0/INFO]: UUID of player Tortug4sete is 2a621eb2-320e-4ca9-8a7f-9ea63a1306c4
+[01:52:54] [Server thread/INFO]: Tortug4sete joined the game
+[01:52:54] [Server thread/INFO]: Tortug4sete[/127.0.0.1:52452] logged in with entity id 668 at ([world_nether]146.79073648525375, 57.0, 73.69999998807907)
+[01:52:58] [Server thread/INFO]: Tortug4sete issued server command: /gamemode creative
+[01:52:58] [Server thread/INFO]: [Tortug4sete: Set own game mode to Creative Mode]
+[01:53:45] [Server thread/INFO]: Tortug4sete issued server command: /gamemode survival
+[01:53:45] [Server thread/INFO]: [Tortug4sete: Set own game mode to Survival Mode]
+[01:55:06] [Server thread/INFO]: Tortug4sete was impaled by Drowned
+[01:55:38] [Server thread/INFO]: Tortug4sete was impaled by Drowned
+[02:03:09] [Server thread/INFO]: Tortug4sete issued server command: /gamemode creative
+[02:03:09] [Server thread/INFO]: [Tortug4sete: Set own game mode to Creative Mode]
+[02:03:32] [Server thread/INFO]: Tortug4sete issued server command: /gamemode survival
+[02:03:32] [Server thread/INFO]: [Tortug4sete: Set own game mode to Survival Mode]
+[02:03:58] [Server thread/INFO]: Tortug4sete issued server command: /give Tortug4sete minecraft:ender_chest
+[02:03:58] [Server thread/INFO]: [Tortug4sete: Gave 1 [Ender Chest] to Tortug4sete]
+[02:05:20] [Server thread/INFO]: Tortug4sete issued server command: /give Tortug4sete minecraft:iron_block 64
+[02:05:20] [Server thread/INFO]: [Tortug4sete: Gave 64 [Block of Iron] to Tortug4sete]
+[02:07:47] [Server thread/INFO]: Tortug4sete issued server command: /give Tortug4sete book 64
+[02:07:48] [Server thread/INFO]: [Tortug4sete: Gave 64 [Book] to Tortug4sete]
+[02:10:57] [Server thread/INFO]: Tortug4sete issued server command: /gamemode spectator
+[02:10:57] [Server thread/INFO]: [Tortug4sete: Set own game mode to Spectator Mode]
+[02:11:51] [Server thread/INFO]: Tortug4sete issued server command: /gamemode survival
+[02:11:51] [Server thread/INFO]: [Tortug4sete: Set own game mode to Survival Mode]
+[02:13:54] [Server thread/INFO]: Tortug4sete issued server command: /kill @e[type=minecraft:spider]
+[02:13:54] [Server thread/INFO]: [Tortug4sete: Killed 13 entities]
+[02:14:13] [Server thread/INFO]: Tortug4sete issued server command: /kill @e[type=minecraft:spider]
+[02:14:13] [Server thread/INFO]: [Tortug4sete: Killed 3 entities]
+[02:34:04] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:34:04] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:34:47] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:34:47] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:35:06] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:35:06] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:39:14] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:39:14] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:40:06] [Server thread/INFO]: Tortug4sete issued server command: /give Tortug4sete minecraft:lapis_block 64
+[02:40:06] [Server thread/INFO]: [Tortug4sete: Gave 64 [Block of Lapis Lazuli] to Tortug4sete]
+[02:40:19] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:40:19] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:41:16] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:41:16] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:41:18] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:41:18] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:42:31] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:42:31] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:44:37] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:44:37] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:44:51] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:44:51] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:45:26] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:45:26] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:45:35] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:45:35] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:45:35] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:45:35] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:45:36] [Server thread/INFO]: Tortug4sete issued server command: /xp add Tortug4sete 1000
+[02:45:36] [Server thread/INFO]: [Tortug4sete: Gave 1000 experience points to Tortug4sete]
+[02:47:14] [Server thread/INFO]: Tortug4sete issued server command: /gamemode creative
+[02:47:14] [Server thread/INFO]: [Tortug4sete: Set own game mode to Creative Mode]
+[02:47:27] [Server thread/INFO]: Tortug4sete issued server command: /gamemode survival
+[02:47:27] [Server thread/INFO]: [Tortug4sete: Set own game mode to Survival Mode]
+[02:47:29] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
+[02:47:29] [Server thread/INFO]: Tortug4sete left the game

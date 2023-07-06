@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "69376ad1-3524-47f4-927d-89850c7cd3aa",
+    "name": "Toxicant75",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bdcd703d-3736-4ce5-a43b-5c04ee1ff2b8",
+    "name": "Uni_Mendes",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2a621eb2-320e-4ca9-8a7f-9ea63a1306c4",
+    "name": "Tortug4sete",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eeb2519b-0cb8-441f-b2b8-718e22d6195e",
+    "name": "Sapef",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
