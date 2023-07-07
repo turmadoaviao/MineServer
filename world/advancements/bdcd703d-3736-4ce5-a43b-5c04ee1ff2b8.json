@@ -383,6 +383,7 @@
       "mutton": "2023-06-08 03:42:42 +0000",
       "pufferfish": "2023-06-08 03:31:49 +0000",
       "bread": "2023-06-08 04:02:37 +0000",
+      "golden_apple": "2023-07-07 01:27:47 +0000",
       "rotten_flesh": "2023-06-08 03:02:41 +0000",
       "salmon": "2023-06-30 22:40:11 +0000",
       "melon_slice": "2023-06-13 23:10:21 +0000",
@@ -2753,10 +2754,12 @@
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "minecraft:white": "2023-06-26 21:07:10 +0000",
+      "minecraft:tabby": "2023-07-07 03:25:46 +0000",
       "minecraft:calico": "2023-06-14 23:21:09 +0000",
       "minecraft:persian": "2023-06-29 02:35:08 +0000",
       "minecraft:all_black": "2023-07-02 04:06:05 +0000",
-      "minecraft:british_shorthair": "2023-06-16 23:56:55 +0000"
+      "minecraft:british_shorthair": "2023-06-16 23:56:55 +0000",
+      "minecraft:red": "2023-07-07 03:30:39 +0000"
     },
     "done": false
   },
@@ -4323,6 +4326,36 @@
   "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2023-07-02 19:19:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2023-07-07 01:40:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2023-07-07 01:42:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2023-07-07 01:26:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2023-07-07 01:43:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2023-07-07 01:39:54 +0000"
     },
     "done": true
   },

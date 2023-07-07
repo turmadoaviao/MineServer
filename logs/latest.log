@@ -1,94 +1,71 @@
-[05:03:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:03:37] [ServerMain/INFO]: Loaded 7 recipes
-[05:03:39] [Server thread/INFO]: Starting minecraft server version 1.20
-[05:03:39] [Server thread/WARN]: ****************************
-[05:03:39] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[05:03:39] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[05:03:39] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[05:03:39] [Server thread/WARN]: ****************************
-[05:03:39] [Server thread/INFO]: Loading properties
-[05:03:39] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[05:03:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:03:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:03:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:45:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:45:40] [ServerMain/INFO]: Loaded 7 recipes
+[15:45:42] [Server thread/INFO]: Starting minecraft server version 1.20
+[15:45:42] [Server thread/WARN]: ****************************
+[15:45:42] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[15:45:42] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[15:45:42] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[15:45:42] [Server thread/WARN]: ****************************
+[15:45:42] [Server thread/INFO]: Loading properties
+[15:45:42] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[15:45:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:45:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:45:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[05:03:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[05:03:40] [Server thread/INFO]: Default game type: SURVIVAL
-[05:03:40] [Server thread/INFO]: Generating keypair
-[05:03:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:03:41] [Server thread/INFO]: Using epoll channel type
-[05:03:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:03:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:03:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:03:41] [Server thread/INFO]: Preparing level "world"
-[05:03:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:03:43] [Server thread/INFO]: Time elapsed: 977 ms
-[05:03:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:03:44] [Server thread/INFO]: Time elapsed: 159 ms
-[05:03:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:03:44] [Server thread/INFO]: Time elapsed: 209 ms
-[05:03:44] [Server thread/INFO]: Running delayed init tasks
-[05:03:44] [Server thread/INFO]: Done (5.506s)! For help, type "help"
-[05:03:44] [Server thread/INFO]: Timings Reset
-[05:03:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5547ms or 110 ticks behind
-[05:04:08] [User Authenticator #0/INFO]: UUID of player Tortug4sete is 2a621eb2-320e-4ca9-8a7f-9ea63a1306c4
-[05:04:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[05:04:18] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[05:04:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[05:04:18] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[05:04:18] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@53d3ad93
-[05:04:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[05:04:18] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[05:04:18] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[05:04:18] [Paper Watchdog Thread/ERROR]: 	Stack:
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x0000000801a10478.run(Unknown Source)
-[05:04:18] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[05:04:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[05:04:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[05:04:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[05:04:22] [Server thread/INFO]: Tortug4sete joined the game
-[05:04:22] [Server thread/INFO]: Tortug4sete[/127.0.0.1:47922] logged in with entity id 278 at ([world]1390.544760859308, 113.0, 1073.9352779278975)
-[05:04:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35667ms or 713 ticks behind
-[05:04:56] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
-[05:04:56] [Server thread/INFO]: Tortug4sete left the game
-[05:05:02] [Server thread/INFO]: Stopping server
-[05:05:03] [Server thread/INFO]: Saving players
-[05:05:03] [Server thread/INFO]: Saving worlds
-[05:05:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:05:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:05:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:05:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:05:08] [Server thread/INFO]: [ChunkHolderManager] Saved 788 block chunks, 788 entity chunks, 1 poi chunks in world 'world' in 5.05s
-[05:05:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:05:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:05:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:05:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:05:09] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1.60s
-[05:05:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:05:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:05:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:05:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:05:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:05:10] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.61s
-[05:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:05:10] [Server thread/INFO]: Flushing Chunk IO
-[05:05:10] [Server thread/INFO]: Closing Thread Pool
-[05:05:10] [Server thread/INFO]: Closing Server
+[15:45:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:45:45] [Server thread/INFO]: Default game type: SURVIVAL
+[15:45:45] [Server thread/INFO]: Generating keypair
+[15:45:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:45:45] [Server thread/INFO]: Using epoll channel type
+[15:45:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:45:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:45:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:45:46] [Server thread/INFO]: Preparing level "world"
+[15:45:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:46:01] [Server thread/INFO]: Time elapsed: 10253 ms
+[15:46:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:46:02] [Server thread/INFO]: Time elapsed: 126 ms
+[15:46:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:46:02] [Server thread/INFO]: Time elapsed: 111 ms
+[15:46:03] [Server thread/INFO]: Running delayed init tasks
+[15:46:03] [Server thread/INFO]: Done (20.953s)! For help, type "help"
+[15:46:03] [Server thread/INFO]: Timings Reset
+[15:46:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5326ms or 106 ticks behind
+[16:15:55] [User Authenticator #0/INFO]: UUID of player Tortug4sete is 2a621eb2-320e-4ca9-8a7f-9ea63a1306c4
+[16:16:01] [Server thread/INFO]: Tortug4sete joined the game
+[16:16:01] [Server thread/INFO]: Tortug4sete[/127.0.0.1:41638] logged in with entity id 809 at ([world_nether]-198.9034697251605, 228.0, 156.17119988207645)
+[16:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5646ms or 112 ticks behind
+[16:16:20] [Server thread/INFO]: Tortug4sete issued server command: /gamemode creative
+[16:16:20] [Server thread/INFO]: [Tortug4sete: Set own game mode to Creative Mode]
+[16:18:15] [Server thread/INFO]: Tortug4sete issued server command: /summon minecraft:iron_golem
+[16:18:15] [Server thread/INFO]: [Tortug4sete: Summoned new Iron Golem]
+[16:19:26] [Server thread/INFO]: Tortug4sete issued server command: /gamemode survival
+[16:19:26] [Server thread/INFO]: [Tortug4sete: Set own game mode to Survival Mode]
+[16:19:27] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
+[16:19:27] [Server thread/INFO]: Tortug4sete left the game
+[16:19:33] [Server thread/INFO]: Stopping server
+[16:19:33] [Server thread/INFO]: Saving players
+[16:19:33] [Server thread/INFO]: Saving worlds
+[16:19:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 140 entity chunks, 4 poi chunks in world 'world' in 0.16s
+[16:19:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:19:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[16:19:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:19:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:19:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:19:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:19:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:19:33] [Server thread/INFO]: Flushing Chunk IO
+[16:19:33] [Server thread/INFO]: Closing Thread Pool
+[16:19:33] [Server thread/INFO]: Closing Server
