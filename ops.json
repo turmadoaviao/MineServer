@@ -12,6 +12,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "8d931442-e82a-3def-9fb1-bdab35187dca",
+    "name": "Facultativo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "bdcd703d-3736-4ce5-a43b-5c04ee1ff2b8",
     "name": "Uni_Mendes",
     "level": 4,
@@ -26,6 +32,12 @@
   {
     "uuid": "2a621eb2-320e-4ca9-8a7f-9ea63a1306c4",
     "name": "Tortug4sete",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "614e55ea-6728-30b1-bc01-ed79bd828f47",
+    "name": "phnglui_1",
     "level": 4,
     "bypassesPlayerLimit": false
   },
