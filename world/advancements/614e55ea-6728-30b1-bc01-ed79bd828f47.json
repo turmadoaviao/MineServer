@@ -403,6 +403,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2023-07-12 19:09:33 +0000",
       "minecraft:skeleton": "2023-07-09 22:43:02 +0000",
       "minecraft:spider": "2023-07-09 23:32:34 +0000",
       "minecraft:creeper": "2023-07-09 22:56:30 +0000",
@@ -1545,27 +1546,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lime_dye": {
-    "criteria": {
-      "has_white_dye": "2023-07-10 00:43:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
-    "criteria": {
-      "has_white_dye": "2023-07-10 00:43:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_red_bed": {
     "criteria": {
       "has_needed_dye": "2023-07-10 00:43:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2023-07-10 00:45:28 +0000"
     },
     "done": true
   },
@@ -1581,6 +1564,54 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2023-07-10 00:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2023-07-10 00:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2023-07-10 00:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2023-07-10 00:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-07-10 00:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2023-07-10 00:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-10 00:43:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-07-10 00:43:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_white_dye": "2023-07-10 00:43:03 +0000"
@@ -1593,45 +1624,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+  "minecraft:recipes/building_blocks/dye_white_wool": {
     "criteria": {
-      "has_red_dye": "2023-07-10 00:43:00 +0000"
+      "has_needed_dye": "2023-07-10 00:43:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+  "minecraft:recipes/decorations/white_candle": {
     "criteria": {
-      "has_salmon": "2023-07-10 00:45:28 +0000"
+      "has_white_dye": "2023-07-10 00:43:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_candle": {
+  "minecraft:recipes/misc/gray_dye": {
     "criteria": {
-      "has_red_dye": "2023-07-10 00:43:00 +0000"
+      "has_white_dye": "2023-07-10 00:43:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon": {
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
-      "has_salmon": "2023-07-10 00:45:28 +0000"
+      "has_white_dye": "2023-07-10 00:43:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+  "minecraft:recipes/building_blocks/dye_white_bed": {
     "criteria": {
-      "has_red_dye": "2023-07-10 00:43:00 +0000"
+      "has_needed_dye": "2023-07-10 00:43:03 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/pink_candle": {
     "criteria": {
       "has_pink_dye": "2023-07-10 00:43:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_white_wool": {
-    "criteria": {
-      "has_needed_dye": "2023-07-10 00:43:03 +0000"
     },
     "done": true
   },
@@ -1653,51 +1678,177 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_candle": {
-    "criteria": {
-      "has_white_dye": "2023-07-10 00:43:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
-    "criteria": {
-      "has_red_dye": "2023-07-10 00:43:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gray_dye": {
-    "criteria": {
-      "has_white_dye": "2023-07-10 00:43:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_carpet": {
-    "criteria": {
-      "has_needed_dye": "2023-07-10 00:43:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
-    "criteria": {
-      "has_white_dye": "2023-07-10 00:43:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_pink_carpet": {
     "criteria": {
       "has_needed_dye": "2023-07-10 00:43:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_white_bed": {
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
-      "has_needed_dye": "2023-07-10 00:43:03 +0000"
+      "has_salmon": "2023-07-10 00:45:28 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
-      "has_rose_red": "2023-07-10 00:43:00 +0000"
+      "has_salmon": "2023-07-10 00:45:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2023-07-10 00:45:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_cherry_wood": {
+    "criteria": {
+      "has_log": "2023-07-12 19:20:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2023-07-12 19:05:45 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-07-12 19:05:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2023-07-12 18:54:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-07-12 19:05:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2023-07-12 18:54:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2023-07-12 18:54:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-07-12 18:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2023-07-12 19:18:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2023-07-12 18:40:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2023-07-12 18:40:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-07-12 18:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-07-12 19:05:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-07-12 18:40:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2023-07-12 19:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-12 19:20:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-07-12 19:20:56 +0000"
     },
     "done": true
   },
