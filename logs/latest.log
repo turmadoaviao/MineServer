@@ -1,79 +1,72 @@
-[18:34:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:34:57] [ServerMain/INFO]: Loaded 7 recipes
-[18:34:59] [Server thread/INFO]: Starting minecraft server version 1.20
-[18:34:59] [Server thread/WARN]: ****************************
-[18:34:59] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[18:34:59] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[18:34:59] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[18:34:59] [Server thread/WARN]: ****************************
-[18:34:59] [Server thread/INFO]: Loading properties
-[18:34:59] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[18:34:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:34:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:35:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:09:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:09:19] [ServerMain/INFO]: Loaded 7 recipes
+[22:09:20] [Server thread/INFO]: Starting minecraft server version 1.20
+[22:09:20] [Server thread/WARN]: ****************************
+[22:09:20] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[22:09:20] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[22:09:20] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[22:09:20] [Server thread/WARN]: ****************************
+[22:09:20] [Server thread/INFO]: Loading properties
+[22:09:20] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[22:09:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:09:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:09:20] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:35:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:35:00] [Server thread/INFO]: Default game type: SURVIVAL
-[18:35:00] [Server thread/INFO]: Generating keypair
-[18:35:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:35:01] [Server thread/INFO]: Using epoll channel type
-[18:35:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:35:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:35:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:35:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:35:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:35:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:35:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:35:01] [Server thread/INFO]: Preparing level "world"
-[18:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:35:03] [Server thread/INFO]: Time elapsed: 719 ms
-[18:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:35:03] [Server thread/INFO]: Time elapsed: 91 ms
-[18:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:35:03] [Server thread/INFO]: Time elapsed: 105 ms
-[18:35:03] [Server thread/INFO]: Running delayed init tasks
-[18:35:03] [Server thread/INFO]: Done (4.781s)! For help, type "help"
-[18:35:03] [Server thread/INFO]: Timings Reset
-[18:35:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5108ms or 102 ticks behind
-[18:37:05] [User Authenticator #0/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
-[18:37:09] [Server thread/INFO]: phnglui_1 joined the game
-[18:37:09] [Server thread/INFO]: phnglui_1[/127.0.0.1:35078] logged in with entity id 518 at ([world]1368.6606183892238, 64.0, 503.89938030743986)
-[18:37:20] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
-[18:37:20] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
-[18:44:57] [Server thread/INFO]: Villager EntityVillager['Villager'/115, uuid='503f240a-15dc-404c-b46d-6d395ee245c3', l='ServerLevel[world]', x=1231.72, y=60.30, z=669.70, cpos=[76, 41], tl=1895765, v=true] died, message: 'Villager was squished too much'
-[18:45:00] [Server thread/INFO]: Villager EntityVillager['Villager'/168, uuid='09d85aa7-c359-4d89-abd5-befb5e15af75', l='ServerLevel[world]', x=1231.84, y=60.00, z=669.30, cpos=[76, 41], tl=515103, v=true] died, message: 'Villager was squished too much'
-[18:45:00] [Server thread/INFO]: Villager EntityVillager['Villager'/125, uuid='64b0d568-99fc-42ce-9d0d-aa38d3f68d00', l='ServerLevel[world]', x=1231.90, y=60.00, z=669.30, cpos=[76, 41], tl=2513481, v=true] died, message: 'Villager was squished too much'
-[18:47:38] [Server thread/INFO]: Villager EntityVillager['Villager'/3, uuid='29ba7ae3-ad0c-49e0-bd08-cd60a5da6f79', l='ServerLevel[world]', x=1138.22, y=34.42, z=660.70, cpos=[71, 41], tl=2244371, v=true] died, message: 'Villager was slain by Zombie'
-[18:47:43] [Server thread/INFO]: Villager EntityVillager['Villager'/5, uuid='e0f461b4-25da-4cf4-a1f8-5f2a306e1119', l='ServerLevel[world]', x=1138.20, y=36.02, z=661.53, cpos=[71, 41], tl=1912917, v=true] died, message: 'Villager was slain by Zombie Villager'
-[18:47:50] [Server thread/INFO]: Villager EntityVillager['Villager'/2, uuid='9a4ded18-4c89-4879-9377-75281afc0b9d', l='ServerLevel[world]', x=1139.40, y=35.23, z=661.30, cpos=[71, 41], tl=2515358, v=true] died, message: 'Villager was slain by Zombie'
-[18:47:50] [Server thread/INFO]: Villager EntityVillager['Villager'/4, uuid='ea5f022b-bc65-4d42-b1d5-de137f477c63', l='ServerLevel[world]', x=1138.29, y=36.00, z=661.39, cpos=[71, 41], tl=2246962, v=true] died, message: 'Villager was slain by Zombie Villager'
-[19:05:45] [Server thread/INFO]: phnglui_1 has made the advancement [We Need to Go Deeper]
-[19:05:45] [Server thread/INFO]: phnglui_1 has made the advancement [A Terrible Fortress]
-[19:22:26] [Server thread/INFO]: phnglui_1 lost connection: Timed out
-[19:22:26] [Server thread/INFO]: phnglui_1 left the game
-[19:27:27] [Server thread/INFO]: Stopping server
-[19:27:27] [Server thread/INFO]: Saving players
-[19:27:27] [Server thread/INFO]: Saving worlds
-[19:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 220 entity chunks, 0 poi chunks in world 'world' in 0.20s
-[19:27:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:27:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[19:27:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:27:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:27:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[19:27:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:27:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:27:28] [Server thread/INFO]: Flushing Chunk IO
-[19:27:28] [Server thread/INFO]: Closing Thread Pool
-[19:27:28] [Server thread/INFO]: Closing Server
+[22:09:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:09:21] [Server thread/INFO]: Default game type: SURVIVAL
+[22:09:21] [Server thread/INFO]: Generating keypair
+[22:09:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:09:21] [Server thread/INFO]: Using epoll channel type
+[22:09:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:09:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:09:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:09:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:09:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:09:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:09:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:09:21] [Server thread/INFO]: Preparing level "world"
+[22:09:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:09:23] [Server thread/INFO]: Time elapsed: 1134 ms
+[22:09:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:09:24] [Server thread/INFO]: Time elapsed: 211 ms
+[22:09:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:09:24] [Server thread/INFO]: Time elapsed: 134 ms
+[22:09:24] [Server thread/INFO]: Running delayed init tasks
+[22:09:24] [Server thread/INFO]: Done (4.515s)! For help, type "help"
+[22:09:24] [Server thread/INFO]: Timings Reset
+[22:09:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[22:10:30] [User Authenticator #0/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[22:10:33] [Server thread/INFO]: phnglui_1 joined the game
+[22:10:33] [Server thread/INFO]: phnglui_1[/127.0.0.1:54164] logged in with entity id 505 at ([world]1386.987521200346, 64.56620823175575, 521.5295790749025)
+[22:18:27] [Server thread/INFO]: Villager EntityVillager['Villager'/111, uuid='ac0d8c34-5ab5-4241-8c0c-3faa0f236d72', l='ServerLevel[world]', x=1231.86, y=60.75, z=669.70, cpos=[76, 41], tl=1909316, v=true] died, message: 'Villager was squished too much'
+[22:34:06] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
+[22:34:06] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
+[22:40:59] [Server thread/INFO]: Villager EntityVillager['Villager'/76, uuid='48b685c3-c2c1-47b4-80a1-a50f1f0e64c8', l='ServerLevel[world]', x=1231.81, y=60.70, z=669.30, cpos=[76, 41], tl=1840346, v=true] died, message: 'Villager was squished too much'
+[23:00:24] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
+[23:00:24] [Server thread/INFO]: phnglui_1 left the game
+[23:00:28] [Server thread/INFO]: Stopping server
+[23:00:28] [Server thread/INFO]: Saving players
+[23:00:28] [Server thread/INFO]: Saving worlds
+[23:00:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 203 entity chunks, 2 poi chunks in world 'world' in 0.16s
+[23:00:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[23:00:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:00:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[23:00:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:00:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:00:28] [Server thread/INFO]: Flushing Chunk IO
+[23:00:28] [Server thread/INFO]: Closing Thread Pool
+[23:00:28] [Server thread/INFO]: Closing Server
