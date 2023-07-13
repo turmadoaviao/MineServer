@@ -1,38 +1,249 @@
-[00:01:19] [Server thread/INFO]: phnglui_1 has made the advancement [Ol' Betsy]
-[00:24:01] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
-[00:24:01] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
-[00:26:35] [Server thread/INFO]: phnglui_1 has made the advancement [Ice Bucket Challenge]
-[00:33:17] [Server thread/INFO]: Villager EntityVillager['Villager'/98, uuid='feac1b1e-ca11-481e-8f07-dcc97112c1b0', l='ServerLevel[world]', x=1231.75, y=60.52, z=669.70, cpos=[76, 41], tl=1751310, v=true] died, message: 'Villager was squished too much'
-[00:33:21] [Server thread/INFO]: Villager EntityVillager['Villager'/81, uuid='f10c6812-c80b-482d-8c21-fb4065a00491', l='ServerLevel[world]', x=1231.81, y=60.00, z=669.70, cpos=[76, 41], tl=1797939, v=true] died, message: 'Villager was squished too much'
-[00:33:23] [Server thread/INFO]: Villager EntityVillager['Villager'/101, uuid='f95a010d-159b-4beb-bc38-6cb1de600cd7', l='ServerLevel[world]', x=1231.90, y=60.00, z=669.30, cpos=[76, 41], tl=799991, v=true] died, message: 'Villager was squished too much'
-[00:38:57] [Async Chat Thread - #1/INFO]: [Not Secure] <phnglui_1> 1207.575 67 678.143
-[00:50:55] [User Authenticator #1/INFO]: UUID of player Tortug4sete is 3d08b94b-dd3e-3fda-9e0a-36ae1a3f7722
-[00:50:55] [Server thread/INFO]: Tortug4sete joined the game
-[00:50:55] [Server thread/INFO]: Tortug4sete[/127.0.0.1:59042] logged in with entity id 26190 at ([world]1296.9216611844001, 64.0, 648.3755668900271)
-[00:53:27] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[00:53:27] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[00:56:06] [Server thread/INFO]: Tortug4sete has made the advancement [Ice Bucket Challenge]
-[00:56:16] [Async Chat Thread - #2/INFO]: [Not Secure] <Tortug4sete> 168 62
-[00:56:23] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[00:56:23] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[00:56:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Tortug4sete> north
-[01:02:45] [Server thread/INFO]: phnglui_1 has made the advancement [Into Fire]
-[01:03:19] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[01:03:19] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[01:04:54] [Server thread/INFO]: Tortug4sete has made the advancement [Spooky Scary Skeleton]
-[01:18:42] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[01:18:42] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[01:20:35] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[01:20:35] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[01:27:21] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[01:27:21] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[01:29:50] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[01:29:50] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[01:31:34] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[01:31:34] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[01:34:45] [Server thread/INFO]: phnglui_1 has made the advancement [Best Friends Forever]
-[01:36:12] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
-[01:36:12] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
-[01:41:03] [Server thread/INFO]: Tortug4sete has made the advancement [Diamonds!]
-[01:54:00] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[01:54:00] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:09:12] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:09:15] [ServerMain/INFO]: Loaded 7 recipes
+[02:09:16] [Server thread/INFO]: Starting minecraft server version 1.20
+[02:09:16] [Server thread/WARN]: ****************************
+[02:09:16] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[02:09:16] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[02:09:16] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[02:09:16] [Server thread/WARN]: ****************************
+[02:09:16] [Server thread/INFO]: Loading properties
+[02:09:16] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[02:09:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:09:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:09:16] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[02:09:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:09:16] [Server thread/INFO]: Default game type: SURVIVAL
+[02:09:16] [Server thread/INFO]: Generating keypair
+[02:09:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:09:17] [Server thread/INFO]: Using epoll channel type
+[02:09:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:09:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:09:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:09:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:09:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:09:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:09:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:09:17] [Server thread/INFO]: Preparing level "world"
+[02:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:09:18] [Server thread/INFO]: Time elapsed: 457 ms
+[02:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:09:18] [Server thread/INFO]: Time elapsed: 192 ms
+[02:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:09:18] [Server thread/INFO]: Time elapsed: 198 ms
+[02:09:19] [Server thread/INFO]: Running delayed init tasks
+[02:09:19] [Server thread/INFO]: Done (3.470s)! For help, type "help"
+[02:09:19] [Server thread/INFO]: Timings Reset
+[02:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[02:09:37] [User Authenticator #0/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[02:09:40] [Server thread/INFO]: phnglui_1 joined the game
+[02:09:40] [Server thread/INFO]: phnglui_1[/127.0.0.1:57646] logged in with entity id 344 at ([world]1391.0258013996536, 113.0, 1071.2432878547534)
+[02:11:23] [User Authenticator #1/INFO]: UUID of player Tortug4sete is 3d08b94b-dd3e-3fda-9e0a-36ae1a3f7722
+[02:11:23] [Server thread/INFO]: Tortug4sete joined the game
+[02:11:23] [Server thread/INFO]: Tortug4sete[/127.0.0.1:44998] logged in with entity id 886 at ([world_nether]164.67634709012248, 57.0, 72.74851072923293)
+[02:14:56] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:15:02] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:15:02] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:15:15] [Server thread/INFO]: Tortug4sete issued server command: /gamerule keepInventory false
+[02:15:15] [Server thread/INFO]: [Tortug4sete: Gamerule keepInventory is now set to: false]
+[02:19:04] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:19:19] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:19:19] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:19:26] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:19:26] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:20:01] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:20:08] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:20:08] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:20:32] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:20:37] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:20:37] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:20:46] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:20:49] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:20:49] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:20:52] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:20:54] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
+[02:20:54] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:20:54] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:20:56] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:20:57] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:20:57] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:21:00] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
+[02:21:10] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:21:10] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:21:12] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:21:12] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:21:19] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:21:21] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:21:21] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:21:21] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:21:24] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:21:24] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:21:29] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
+[02:21:32] [Server thread/INFO]: Tortug4sete burned to death
+[02:21:39] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:21:39] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:21:44] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:21:44] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:21:57] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:22:00] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:22:00] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:22:13] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:23:00] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:23:00] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:23:41] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:23:52] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:23:52] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:25:25] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:25:30] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:25:30] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:25:31] [Server thread/INFO]: Tortug4sete was slain by Zombified Piglin
+[02:25:36] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:25:36] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:28:06] [Server thread/INFO]: Tortug4sete was slain by Zombified Piglin
+[02:28:09] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:28:09] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:30:04] [Server thread/INFO]: phnglui_1 has made the advancement [Spooky Scary Skeleton]
+[02:30:28] [Server thread/INFO]: Tortug4sete was fireballed by Blaze
+[02:30:32] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:30:32] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:31:16] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:31:18] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:31:18] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:31:28] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:31:31] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:31:31] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:31:39] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:31:41] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:31:41] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:32:34] [Server thread/INFO]: Tortug4sete was slain by Hoglin
+[02:32:38] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:32:38] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:33:28] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
+[02:33:40] [Server thread/INFO]: Tortug4sete was slain by Piglin
+[02:33:47] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:33:47] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:33:49] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:33:49] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:34:26] [Server thread/INFO]: phnglui_1 was burnt to a crisp whilst fighting Blaze
+[02:34:27] [Server thread/INFO]: Tortug4sete was fireballed by Blaze
+[02:34:31] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:34:31] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:34:31] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:34:31] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:34:44] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
+[02:34:44] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
+[02:35:04] [Server thread/INFO]: Tortug4sete was fireballed by Blaze
+[02:35:13] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:35:13] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:35:15] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:35:15] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:35:18] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
+[02:35:21] [Server thread/INFO]: Tortug4sete tried to swim in lava to escape Blaze
+[02:35:24] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:35:24] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:35:26] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
+[02:35:33] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:35:33] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:35:35] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:35:35] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:35:41] [Server thread/INFO]: phnglui_1 was burnt to a crisp whilst fighting Blaze
+[02:35:44] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:35:44] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:35:59] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
+[02:36:05] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[02:36:05] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[02:36:10] [Server thread/INFO]: phnglui_1 issued server command: /kill
+[02:36:10] [Server thread/INFO]: phnglui_1 was killed
+[02:36:10] [Server thread/INFO]: [phnglui_1: Killed phnglui_1]
+[02:36:21] [Server thread/INFO]: phnglui_1 issued server command: /kill
+[02:36:21] [Server thread/INFO]: phnglui_1 was killed
+[02:36:21] [Server thread/INFO]: [phnglui_1: Killed phnglui_1]
+[02:36:31] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:36:31] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:37:06] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[02:37:06] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[02:39:44] [Server thread/INFO]: phnglui_1 has made the advancement [Suit Up]
+[02:41:53] [User Authenticator #2/INFO]: UUID of player kedoshim is 6e321f5e-df71-343a-8a36-474bda0ae5b1
+[02:41:53] [Server thread/INFO]: kedoshim joined the game
+[02:41:53] [Server thread/INFO]: kedoshim[/127.0.0.1:50906] logged in with entity id 12001 at ([world]1278.5, 63.0, 651.5)
+[02:42:07] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[02:42:07] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[02:44:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Tortug4sete> mendes, guilherme, caio, gustavo, nicolas, eu, abraão
+[02:47:36] [Server thread/INFO]: Tortug4sete issued server command: /op kedoshim
+[02:47:36] [Server thread/INFO]: [Tortug4sete: Made kedoshim a server operator]
+[02:50:08] [Server thread/INFO]: kedoshim was shot by Skeleton
+[02:50:09] [Server thread/INFO]: kedoshim has made the advancement [Monster Hunter]
+[02:59:59] [Server thread/INFO]: kedoshim has made the advancement [Suit Up]
+[03:06:11] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[03:06:11] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[03:12:11] [User Authenticator #3/INFO]: UUID of player Facultativo is 8d931442-e82a-3def-9fb1-bdab35187dca
+[03:12:11] [Server thread/INFO]: Facultativo joined the game
+[03:12:11] [Server thread/INFO]: Facultativo[/127.0.0.1:37654] logged in with entity id 24478 at ([world]1272.2700705619545, 53.0, 684.3000000119209)
+[03:12:15] [Server thread/INFO]: phnglui_1 has made the advancement [Surge Protector]
+[03:13:09] [Server thread/INFO]: Facultativo has made the advancement [Getting an Upgrade]
+[03:23:43] [Server thread/INFO]: Tortug4sete issued server command: /playsound minecraft:entity.evoker.prepare_wololo ambient @a
+[03:23:43] [Server thread/INFO]: [Tortug4sete: Played sound minecraft:entity.evoker.prepare_wololo to 4 players]
+[03:23:52] [Server thread/INFO]: Tortug4sete issued server command: /playsound minecraft:entity.evoker.prepare_wololo ambient @a
+[03:23:52] [Server thread/INFO]: [Tortug4sete: Played sound minecraft:entity.evoker.prepare_wololo to 4 players]
+[03:25:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Tortug4sete> o mé
+[03:35:39] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[03:35:39] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[03:42:55] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[03:42:55] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[03:43:35] [Server thread/INFO]: kedoshim was doomed to fall by phnglui_1
+[03:48:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Tortug4sete> ADASD
+[03:50:06] [Async Chat Thread - #8/INFO]: [Not Secure] <Tortug4sete> ADASD
+[03:55:25] [Server thread/INFO]: Villager EntityVillager['Villager'/81, uuid='39bdec59-af78-400f-b376-c28eba71317c', l='ServerLevel[world]', x=1231.89, y=60.65, z=669.30, cpos=[76, 41], tl=1624098, v=true] died, message: 'Villager was squished too much'
+[04:01:45] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[04:01:45] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[04:02:50] [Server thread/INFO]: Villager EntityVillager['Villager'/119, uuid='3d8f7a44-89a0-4b90-a166-650225600d3d', l='ServerLevel[world]', x=1231.88, y=60.00, z=669.70, cpos=[76, 41], tl=2308718, v=true] died, message: 'Villager was squished too much'
+[04:03:17] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:03:17] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:05:30] [Server thread/INFO]: phnglui_1 issued server command: /tp
+[04:05:34] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:05:34] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:07:14] [Server thread/INFO]: kedoshim has made the advancement [Diamonds!]
+[04:08:03] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:08:03] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:08:05] [Server thread/INFO]: kedoshim has made the advancement [Acquire Hardware]
+[04:09:02] [Server thread/INFO]: kedoshim has made the advancement [A Seedy Place]
+[04:12:04] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:12:04] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:14:13] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:14:13] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:16:05] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[04:16:05] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[04:25:02] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
+[04:25:02] [Server thread/INFO]: phnglui_1 left the game
+[04:25:02] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
+[04:25:02] [Server thread/INFO]: Tortug4sete left the game
+[04:25:02] [Server thread/INFO]: kedoshim lost connection: Disconnected
+[04:25:02] [Server thread/INFO]: kedoshim left the game
+[04:25:02] [Server thread/INFO]: Facultativo lost connection: Disconnected
+[04:25:02] [Server thread/INFO]: Facultativo left the game
+[04:25:15] [Server thread/INFO]: Stopping server
+[04:25:15] [Server thread/INFO]: Saving players
+[04:25:15] [Server thread/INFO]: Saving worlds
+[04:25:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:25:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:25:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:25:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saved 21 block chunks, 298 entity chunks, 4 poi chunks in world 'world' in 0.24s
+[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:25:16] [Server thread/INFO]: Flushing Chunk IO
+[04:25:16] [Server thread/INFO]: Closing Thread Pool
+[04:25:16] [Server thread/INFO]: Closing Server
