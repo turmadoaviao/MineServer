@@ -1,249 +1,558 @@
-[02:09:12] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:09:15] [ServerMain/INFO]: Loaded 7 recipes
-[02:09:16] [Server thread/INFO]: Starting minecraft server version 1.20
-[02:09:16] [Server thread/WARN]: ****************************
-[02:09:16] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[02:09:16] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[02:09:16] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[02:09:16] [Server thread/WARN]: ****************************
-[02:09:16] [Server thread/INFO]: Loading properties
-[02:09:16] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[02:09:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:09:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:09:16] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[04:31:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:31:28] [ServerMain/INFO]: Loaded 7 recipes
+[04:31:29] [Server thread/INFO]: Starting minecraft server version 1.20
+[04:31:29] [Server thread/WARN]: ****************************
+[04:31:29] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[04:31:29] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[04:31:29] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[04:31:29] [Server thread/WARN]: ****************************
+[04:31:29] [Server thread/INFO]: Loading properties
+[04:31:29] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[04:31:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:31:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:31:29] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:09:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[02:09:16] [Server thread/INFO]: Default game type: SURVIVAL
-[02:09:16] [Server thread/INFO]: Generating keypair
-[02:09:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:09:17] [Server thread/INFO]: Using epoll channel type
-[02:09:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:09:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:09:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:09:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:09:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:09:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:09:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:09:17] [Server thread/INFO]: Preparing level "world"
-[02:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:09:18] [Server thread/INFO]: Time elapsed: 457 ms
-[02:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:09:18] [Server thread/INFO]: Time elapsed: 192 ms
-[02:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:09:18] [Server thread/INFO]: Time elapsed: 198 ms
-[02:09:19] [Server thread/INFO]: Running delayed init tasks
-[02:09:19] [Server thread/INFO]: Done (3.470s)! For help, type "help"
-[02:09:19] [Server thread/INFO]: Timings Reset
-[02:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
-[02:09:37] [User Authenticator #0/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
-[02:09:40] [Server thread/INFO]: phnglui_1 joined the game
-[02:09:40] [Server thread/INFO]: phnglui_1[/127.0.0.1:57646] logged in with entity id 344 at ([world]1391.0258013996536, 113.0, 1071.2432878547534)
-[02:11:23] [User Authenticator #1/INFO]: UUID of player Tortug4sete is 3d08b94b-dd3e-3fda-9e0a-36ae1a3f7722
-[02:11:23] [Server thread/INFO]: Tortug4sete joined the game
-[02:11:23] [Server thread/INFO]: Tortug4sete[/127.0.0.1:44998] logged in with entity id 886 at ([world_nether]164.67634709012248, 57.0, 72.74851072923293)
-[02:14:56] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:15:02] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:15:02] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:15:15] [Server thread/INFO]: Tortug4sete issued server command: /gamerule keepInventory false
-[02:15:15] [Server thread/INFO]: [Tortug4sete: Gamerule keepInventory is now set to: false]
-[02:19:04] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:19:19] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:19:19] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:19:26] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:19:26] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:20:01] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:20:08] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:20:08] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:20:32] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:20:37] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:20:37] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:20:46] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:20:49] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:20:49] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:20:52] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:20:54] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
-[02:20:54] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:20:54] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:20:56] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:20:57] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:20:57] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:21:00] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
-[02:21:10] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:21:10] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:21:12] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:21:12] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:21:19] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:21:21] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:21:21] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:21:21] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:21:24] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:21:24] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:21:29] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
-[02:21:32] [Server thread/INFO]: Tortug4sete burned to death
-[02:21:39] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:21:39] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:21:44] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:21:44] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:21:57] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:22:00] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:22:00] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:22:13] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:23:00] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:23:00] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:23:41] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:23:52] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:23:52] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:25:25] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:25:30] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:25:30] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:25:31] [Server thread/INFO]: Tortug4sete was slain by Zombified Piglin
-[02:25:36] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:25:36] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:28:06] [Server thread/INFO]: Tortug4sete was slain by Zombified Piglin
-[02:28:09] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:28:09] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:30:04] [Server thread/INFO]: phnglui_1 has made the advancement [Spooky Scary Skeleton]
-[02:30:28] [Server thread/INFO]: Tortug4sete was fireballed by Blaze
-[02:30:32] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:30:32] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:31:16] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:31:18] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:31:18] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:31:28] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:31:31] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:31:31] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:31:39] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:31:41] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:31:41] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:32:34] [Server thread/INFO]: Tortug4sete was slain by Hoglin
-[02:32:38] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:32:38] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:33:28] [Server thread/INFO]: phnglui_1 was slain by Zombified Piglin
-[02:33:40] [Server thread/INFO]: Tortug4sete was slain by Piglin
-[02:33:47] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:33:47] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:33:49] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:33:49] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:34:26] [Server thread/INFO]: phnglui_1 was burnt to a crisp whilst fighting Blaze
-[02:34:27] [Server thread/INFO]: Tortug4sete was fireballed by Blaze
-[02:34:31] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:34:31] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:34:31] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:34:31] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:34:44] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
-[02:34:44] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
-[02:35:04] [Server thread/INFO]: Tortug4sete was fireballed by Blaze
-[02:35:13] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:35:13] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:35:15] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:35:15] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:35:18] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
-[02:35:21] [Server thread/INFO]: Tortug4sete tried to swim in lava to escape Blaze
-[02:35:24] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:35:24] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:35:26] [Server thread/INFO]: Tortug4sete was slain by Wither Skeleton
-[02:35:33] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:35:33] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:35:35] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:35:35] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:35:41] [Server thread/INFO]: phnglui_1 was burnt to a crisp whilst fighting Blaze
-[02:35:44] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:35:44] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:35:59] [Server thread/INFO]: phnglui_1 was slain by Wither Skeleton
-[02:36:05] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[02:36:05] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[02:36:10] [Server thread/INFO]: phnglui_1 issued server command: /kill
-[02:36:10] [Server thread/INFO]: phnglui_1 was killed
-[02:36:10] [Server thread/INFO]: [phnglui_1: Killed phnglui_1]
-[02:36:21] [Server thread/INFO]: phnglui_1 issued server command: /kill
-[02:36:21] [Server thread/INFO]: phnglui_1 was killed
-[02:36:21] [Server thread/INFO]: [phnglui_1: Killed phnglui_1]
-[02:36:31] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:36:31] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:37:06] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[02:37:06] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[02:39:44] [Server thread/INFO]: phnglui_1 has made the advancement [Suit Up]
-[02:41:53] [User Authenticator #2/INFO]: UUID of player kedoshim is 6e321f5e-df71-343a-8a36-474bda0ae5b1
-[02:41:53] [Server thread/INFO]: kedoshim joined the game
-[02:41:53] [Server thread/INFO]: kedoshim[/127.0.0.1:50906] logged in with entity id 12001 at ([world]1278.5, 63.0, 651.5)
-[02:42:07] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
-[02:42:07] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
-[02:44:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Tortug4sete> mendes, guilherme, caio, gustavo, nicolas, eu, abraão
-[02:47:36] [Server thread/INFO]: Tortug4sete issued server command: /op kedoshim
-[02:47:36] [Server thread/INFO]: [Tortug4sete: Made kedoshim a server operator]
-[02:50:08] [Server thread/INFO]: kedoshim was shot by Skeleton
-[02:50:09] [Server thread/INFO]: kedoshim has made the advancement [Monster Hunter]
-[02:59:59] [Server thread/INFO]: kedoshim has made the advancement [Suit Up]
-[03:06:11] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
-[03:06:11] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
-[03:12:11] [User Authenticator #3/INFO]: UUID of player Facultativo is 8d931442-e82a-3def-9fb1-bdab35187dca
-[03:12:11] [Server thread/INFO]: Facultativo joined the game
-[03:12:11] [Server thread/INFO]: Facultativo[/127.0.0.1:37654] logged in with entity id 24478 at ([world]1272.2700705619545, 53.0, 684.3000000119209)
-[03:12:15] [Server thread/INFO]: phnglui_1 has made the advancement [Surge Protector]
-[03:13:09] [Server thread/INFO]: Facultativo has made the advancement [Getting an Upgrade]
-[03:23:43] [Server thread/INFO]: Tortug4sete issued server command: /playsound minecraft:entity.evoker.prepare_wololo ambient @a
-[03:23:43] [Server thread/INFO]: [Tortug4sete: Played sound minecraft:entity.evoker.prepare_wololo to 4 players]
-[03:23:52] [Server thread/INFO]: Tortug4sete issued server command: /playsound minecraft:entity.evoker.prepare_wololo ambient @a
-[03:23:52] [Server thread/INFO]: [Tortug4sete: Played sound minecraft:entity.evoker.prepare_wololo to 4 players]
-[03:25:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Tortug4sete> o mé
-[03:35:39] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
-[03:35:39] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
-[03:42:55] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
-[03:42:55] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
-[03:43:35] [Server thread/INFO]: kedoshim was doomed to fall by phnglui_1
-[03:48:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Tortug4sete> ADASD
-[03:50:06] [Async Chat Thread - #8/INFO]: [Not Secure] <Tortug4sete> ADASD
-[03:55:25] [Server thread/INFO]: Villager EntityVillager['Villager'/81, uuid='39bdec59-af78-400f-b376-c28eba71317c', l='ServerLevel[world]', x=1231.89, y=60.65, z=669.30, cpos=[76, 41], tl=1624098, v=true] died, message: 'Villager was squished too much'
-[04:01:45] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
-[04:01:45] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
-[04:02:50] [Server thread/INFO]: Villager EntityVillager['Villager'/119, uuid='3d8f7a44-89a0-4b90-a166-650225600d3d', l='ServerLevel[world]', x=1231.88, y=60.00, z=669.70, cpos=[76, 41], tl=2308718, v=true] died, message: 'Villager was squished too much'
-[04:03:17] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
-[04:03:17] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
-[04:05:30] [Server thread/INFO]: phnglui_1 issued server command: /tp
-[04:05:34] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
-[04:05:34] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
-[04:07:14] [Server thread/INFO]: kedoshim has made the advancement [Diamonds!]
-[04:08:03] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
-[04:08:03] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
-[04:08:05] [Server thread/INFO]: kedoshim has made the advancement [Acquire Hardware]
-[04:09:02] [Server thread/INFO]: kedoshim has made the advancement [A Seedy Place]
-[04:12:04] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
-[04:12:04] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
-[04:14:13] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
-[04:14:13] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
-[04:16:05] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
-[04:16:05] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
-[04:25:02] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
-[04:25:02] [Server thread/INFO]: phnglui_1 left the game
-[04:25:02] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
-[04:25:02] [Server thread/INFO]: Tortug4sete left the game
-[04:25:02] [Server thread/INFO]: kedoshim lost connection: Disconnected
-[04:25:02] [Server thread/INFO]: kedoshim left the game
-[04:25:02] [Server thread/INFO]: Facultativo lost connection: Disconnected
-[04:25:02] [Server thread/INFO]: Facultativo left the game
-[04:25:15] [Server thread/INFO]: Stopping server
-[04:25:15] [Server thread/INFO]: Saving players
-[04:25:15] [Server thread/INFO]: Saving worlds
-[04:25:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:25:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:25:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:25:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saved 21 block chunks, 298 entity chunks, 4 poi chunks in world 'world' in 0.24s
-[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:25:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:25:16] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:25:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:25:16] [Server thread/INFO]: Flushing Chunk IO
-[04:25:16] [Server thread/INFO]: Closing Thread Pool
-[04:25:16] [Server thread/INFO]: Closing Server
+[04:31:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[04:31:30] [Server thread/INFO]: Default game type: SURVIVAL
+[04:31:30] [Server thread/INFO]: Generating keypair
+[04:31:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:31:30] [Server thread/INFO]: Using epoll channel type
+[04:31:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:31:30] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:31:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:31:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:31:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:31:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:31:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:31:30] [Server thread/INFO]: Preparing level "world"
+[04:31:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:31:32] [Server thread/INFO]: Time elapsed: 833 ms
+[04:31:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:31:32] [Server thread/INFO]: Time elapsed: 125 ms
+[04:31:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:31:32] [Server thread/INFO]: Time elapsed: 131 ms
+[04:31:33] [Server thread/INFO]: Running delayed init tasks
+[04:31:33] [Server thread/INFO]: Done (3.927s)! For help, type "help"
+[04:31:33] [Server thread/INFO]: Timings Reset
+[04:31:33] [User Authenticator #0/INFO]: UUID of player Tortug4sete is 3d08b94b-dd3e-3fda-9e0a-36ae1a3f7722
+[04:31:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
+[04:31:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[04:31:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:31:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[04:31:43] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@6d01827b
+[04:31:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:31:43] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[04:31:43] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[04:31:43] [Paper Watchdog Thread/ERROR]: 	Stack:
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x00000008019d9618.run(Unknown Source)
+[04:31:43] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+[04:31:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:31:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[04:31:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[04:31:47] [Server thread/INFO]: Tortug4sete joined the game
+[04:31:47] [Server thread/INFO]: Tortug4sete[/127.0.0.1:59176] logged in with entity id 1 at ([world]1163.954196516908, 53.0, 692.2375000119209)
+[04:31:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14725ms or 294 ticks behind
+[04:31:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Tortug4sete> adas
+[04:32:22] [User Authenticator #0/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[04:32:22] [Server thread/INFO]: phnglui_1 joined the game
+[04:32:22] [Server thread/INFO]: phnglui_1[/127.0.0.1:39708] logged in with entity id 718 at ([world]1390.3724473113682, 113.0, 1072.8991587382354)
+[04:32:33] [User Authenticator #0/INFO]: UUID of player Facultativo is 8d931442-e82a-3def-9fb1-bdab35187dca
+[04:32:33] [Server thread/INFO]: Facultativo joined the game
+[04:32:34] [Server thread/INFO]: Facultativo[/127.0.0.1:49606] logged in with entity id 915 at ([world]1272.081154084002, 40.0, 675.1809521152296)
+[04:32:59] [Server thread/INFO]: Tortug4sete issued server command: /tp Facultativo
+[04:32:59] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to Facultativo]
+[04:33:21] [User Authenticator #0/INFO]: UUID of player kedoshim is 6e321f5e-df71-343a-8a36-474bda0ae5b1
+[04:33:21] [Server thread/INFO]: kedoshim joined the game
+[04:33:21] [Server thread/INFO]: kedoshim[/127.0.0.1:52852] logged in with entity id 1433 at ([world]1273.8543807199742, 65.0, 644.7484938563194)
+[04:36:46] [Server thread/INFO]: kedoshim has made the advancement [Planting the Past]
+[04:38:53] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.38575424970053973
+[04:38:53] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.7160826598617405
+[04:38:53] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.0452110376234032
+[04:40:06] [Server thread/INFO]: kedoshim has made the advancement [Stone Age]
+[04:46:22] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:46:22] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:47:08] [Server thread/WARN]: phnglui_1 was kicked due to keepalive timeout!
+[04:47:08] [Server thread/INFO]: phnglui_1 lost connection: Timed out
+[04:47:08] [Server thread/INFO]: phnglui_1 left the game
+[04:47:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Tortug4sete> adas
+[04:47:25] [User Authenticator #1/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[04:47:25] [Server thread/INFO]: phnglui_1 joined the game
+[04:47:25] [Server thread/INFO]: phnglui_1[/127.0.0.1:39008] logged in with entity id 8141 at ([world]1245.5066319481825, 66.0, 665.6714781648045)
+[04:47:37] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshin
+[04:47:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Tortug4sete> adasd
+[04:47:57] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
+[04:47:57] [Server thread/INFO]: phnglui_1 left the game
+[04:47:59] [User Authenticator #1/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[04:47:59] [Server thread/INFO]: phnglui_1 joined the game
+[04:47:59] [Server thread/INFO]: phnglui_1[/127.0.0.1:39194] logged in with entity id 8270 at ([world]1245.5066319481825, 66.0, 665.6714781648045)
+[04:48:19] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
+[04:48:19] [Server thread/INFO]: phnglui_1 left the game
+[04:48:20] [Server thread/INFO]: Villager EntityVillager['Shepherd'/104, uuid='eb5334cd-509a-43ef-8298-7a26bfa5db91', l='ServerLevel[world]', x=1195.77, y=43.00, z=722.90, cpos=[74, 45], tl=2988304, v=true] died, message: 'Shepherd was slain by Zombie'
+[04:48:21] [User Authenticator #1/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[04:48:21] [Server thread/INFO]: phnglui_1 joined the game
+[04:48:21] [Server thread/INFO]: phnglui_1[/127.0.0.1:50992] logged in with entity id 8330 at ([world]1245.5066319481825, 66.0, 665.6714781648045)
+[04:48:25] [Server thread/INFO]: Villager EntityVillager['Villager'/131, uuid='8ac25561-2e90-45c5-bfa9-5402420d04b9', l='ServerLevel[world]', x=1231.84, y=60.54, z=669.30, cpos=[76, 41], tl=1632028, v=true] died, message: 'Villager was squished too much'
+[04:49:06] [Server thread/WARN]: phnglui_1 was kicked due to keepalive timeout!
+[04:49:06] [Server thread/INFO]: phnglui_1 lost connection: Timed out
+[04:49:06] [Server thread/INFO]: phnglui_1 left the game
+[04:49:13] [User Authenticator #1/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[04:49:14] [Server thread/INFO]: phnglui_1 joined the game
+[04:49:14] [Server thread/INFO]: phnglui_1[/127.0.0.1:42698] logged in with entity id 8507 at ([world]1245.5066319481825, 66.0, 665.6714781648045)
+[04:51:24] [Server thread/INFO]: Facultativo issued server command: /tp Tortug4sete
+[04:51:24] [Server thread/INFO]: [Facultativo: Teleported Facultativo to Tortug4sete]
+[04:51:47] [Server thread/INFO]: Facultativo issued server command: /tp kedoshim
+[04:51:47] [Server thread/INFO]: [Facultativo: Teleported Facultativo to kedoshim]
+[04:53:10] [Server thread/INFO]: kedoshim issued server command: /kill kedoshim
+[04:53:10] [Server thread/INFO]: kedoshim was killed
+[04:53:10] [Server thread/INFO]: [kedoshim: Killed kedoshim]
+[04:56:07] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[04:56:07] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[04:56:08] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[04:56:08] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[04:57:14] [Server thread/INFO]: Tortug4sete issued server command: /weather clear
+[04:57:14] [Server thread/INFO]: [Tortug4sete: Set the weather to clear]
+[05:03:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Tortug4sete> asdasd
+[05:03:22] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[05:03:22] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[05:05:13] [Netty Epoll Server IO #1/ERROR]: Received class net.minecraft.network.protocol.game.PacketPlayInTeleportAccept that couldn't be processed
+java.lang.ClassCastException: class net.minecraft.server.network.HandshakeListener cannot be cast to class net.minecraft.network.protocol.game.PacketListenerPlayIn (net.minecraft.server.network.HandshakeListener and net.minecraft.network.protocol.game.PacketListenerPlayIn are in unnamed module of loader java.net.URLClassLoader @2b71fc7e)
+	at net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket.a(ServerboundAcceptTeleportationPacket.java:10) ~[?:?]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:315) ~[?:?]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:299) ~[?:?]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:51) ~[?:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:122) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[05:06:05] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[05:06:05] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[05:06:50] [Server thread/INFO]: Facultativo has made the advancement [Acquire Hardware]
+[05:08:46] [Server thread/INFO]: Facultativo has made the advancement [Monster Hunter]
+[05:09:35] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[05:09:35] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[05:12:58] [Async Chat Thread - #6/INFO]: [Not Secure] <Tortug4sete> what fuck is a kilometer
+[05:13:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Tortug4sete> ???
+[05:14:54] [Server thread/INFO]: kedoshim issued server command: /kill kedoshim
+[05:14:54] [Server thread/INFO]: kedoshim was killed
+[05:14:54] [Server thread/INFO]: [kedoshim: Killed kedoshim]
+[05:15:14] [Server thread/INFO]: Facultativo has reached the goal [Hired Help]
+[05:15:31] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[05:15:31] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[05:16:33] [Server thread/INFO]: Villager EntityVillager['Librarian'/132, uuid='50a121bf-5a97-4a7f-b286-81f9a6d528d5', l='ServerLevel[world]', x=1223.49, y=58.88, z=662.49, cpos=[76, 41], tl=3022101, v=true] died, message: 'Librarian suffocated in a wall'
+[05:23:29] [Server thread/INFO]: Villager EntityVillager['Villager'/199, uuid='cfb6a104-ecbf-4a8c-afcf-46234aef90bf', l='ServerLevel[world]', x=1231.79, y=60.00, z=669.30, cpos=[76, 41], tl=1769933, v=true] died, message: 'Villager was squished too much'
+[05:23:31] [Server thread/INFO]: Villager EntityVillager['Villager'/142, uuid='9b361149-f8d6-440d-9eda-667fc9e0111b', l='ServerLevel[world]', x=1231.87, y=60.00, z=669.30, cpos=[76, 41], tl=538751, v=true] died, message: 'Villager was squished too much'
+[05:29:59] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[05:29:59] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[05:33:26] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[05:33:26] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[05:35:12] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[05:35:12] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[05:35:24] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[05:35:24] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[05:36:45] [Server thread/INFO]: kedoshim was shot by Skeleton
+[05:36:57] [Server thread/INFO]: kedoshim issued server command: /tp Facultativo
+[05:36:57] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Facultativo]
+[05:37:04] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[05:37:04] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[05:37:15] [Server thread/INFO]: kedoshim was shot by Skeleton
+[05:37:24] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[05:37:24] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[05:40:05] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[05:40:05] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[05:41:43] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[05:41:43] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[05:44:03] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[05:44:03] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[05:48:56] [Server thread/INFO]: kedoshim issued server command: /tp Facultativo
+[05:48:56] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Facultativo]
+[05:51:08] [Server thread/INFO]: phnglui_1 issued server command: /tp ke
+[05:51:10] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[05:51:10] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[05:54:01] [Server thread/INFO]: kedoshim issued server command: /tp to
+[05:54:07] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[05:54:07] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[06:00:01] [Server thread/INFO]: Tortug4sete issued server command: /weather clear
+[06:00:01] [Server thread/INFO]: [Tortug4sete: Set the weather to clear]
+[06:00:01] [Server thread/INFO]: phnglui_1 issued server command: /weather clear
+[06:00:01] [Server thread/INFO]: [phnglui_1: Set the weather to clear]
+[06:01:15] [Server thread/INFO]: Villager EntityVillager['Villager'/192, uuid='1d51603e-52cb-4fec-8ae4-9ba5993a6ecd', l='ServerLevel[world]', x=1231.81, y=60.00, z=669.70, cpos=[76, 41], tl=1496050, v=true] died, message: 'Villager was squished too much'
+[06:01:18] [Server thread/INFO]: Villager EntityVillager['Villager'/189, uuid='95f49581-95f4-4780-bea9-f88a771fd5bd', l='ServerLevel[world]', x=1231.83, y=60.60, z=669.30, cpos=[76, 41], tl=2072700, v=true] died, message: 'Villager was squished too much'
+[06:01:22] [Server thread/INFO]: Villager EntityVillager['Villager'/184, uuid='8f88c361-6591-4411-a678-eb191429ebd0', l='ServerLevel[world]', x=1231.87, y=60.30, z=669.70, cpos=[76, 41], tl=2362212, v=true] died, message: 'Villager was squished too much'
+[06:01:29] [Server thread/INFO]: Villager EntityVillager['Villager'/178, uuid='8259af98-b296-441c-aba3-6a88465b1ae3', l='ServerLevel[world]', x=1231.74, y=60.00, z=669.30, cpos=[76, 41], tl=3037298, v=true] died, message: 'Villager was squished too much'
+[06:05:17] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[06:05:17] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[06:12:11] [Server thread/INFO]: kedoshim issued server command: /tp Facultativo
+[06:12:11] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Facultativo]
+[06:12:31] [Server thread/INFO]: kedoshim has made the advancement [Sweet Dreams]
+[06:12:45] [Server thread/INFO]: Facultativo has made the advancement [Sweet Dreams]
+[06:13:49] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[06:13:49] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[06:14:15] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.27431490724438845
+[06:14:15] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.37347388273178694
+[06:15:20] [Server thread/INFO]: Tortug4sete issued server command: /tp Facultativo
+[06:15:20] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to Facultativo]
+[06:16:40] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[06:16:40] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[06:19:41] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[06:19:41] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[06:19:55] [Server thread/INFO]: Tortug4sete issued server command: /tp Facultativo
+[06:19:55] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to Facultativo]
+[06:20:48] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[06:20:48] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[06:22:51] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[06:22:51] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[06:23:49] [Server thread/INFO]: Facultativo issued server command: /tp phnglui_1
+[06:23:49] [Server thread/INFO]: [Facultativo: Teleported Facultativo to phnglui_1]
+[06:23:58] [Server thread/INFO]: Tortug4sete issued server command: /tp Facultativo phnglui_1
+[06:23:58] [Server thread/INFO]: [Tortug4sete: Teleported Facultativo to phnglui_1]
+[06:24:36] [Server thread/INFO]: Facultativo has made the advancement [We Need to Go Deeper]
+[06:24:52] [Server thread/INFO]: Facultativo has made the advancement [A Terrible Fortress]
+[06:25:16] [Server thread/INFO]: phnglui_1 issued server command: /tp Tortug4sete
+[06:25:16] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Tortug4sete]
+[06:27:42] [Server thread/INFO]: Villager EntityVillager['Armorer'/33, uuid='60dfd19b-d9ef-480f-afbf-d5364711bfa6', l='ServerLevel[world]', x=1181.40, y=63.00, z=612.55, cpos=[73, 38], tl=984495, v=true] died, message: 'Armorer was impaled by Drowned'
+[06:28:09] [Server thread/INFO]: Villager EntityVillager['Toolsmith'/148, uuid='31f586f0-326f-4e24-b83d-9e0efc277a45', l='ServerLevel[world]', x=1173.51, y=65.00, z=624.28, cpos=[73, 39], tl=3108026, v=true] died, message: 'Toolsmith was impaled by Drowned'
+[06:28:31] [Server thread/INFO]: Villager EntityVillager['Armorer'/75, uuid='48a251e6-b4ca-4274-8d70-0f154d13b56f', l='ServerLevel[world]', x=1175.38, y=63.00, z=611.43, cpos=[73, 38], tl=2000076, v=true] died, message: 'Armorer was impaled by Drowned'
+[06:31:52] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[06:31:52] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[06:33:05] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.6129943394196289
+[06:33:05] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 1.407784401365916
+[06:33:05] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 2.2247325362579886
+[06:33:06] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 3.088660083195464
+[06:33:37] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[06:33:37] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[06:35:25] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[06:35:25] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[06:40:42] [Server thread/INFO]: Villager EntityVillager['Villager'/197, uuid='7f236f85-3d1b-4039-81ce-7e848741531f', l='ServerLevel[world]', x=1231.88, y=60.00, z=669.70, cpos=[76, 41], tl=323383, v=true] died, message: 'Villager was squished too much'
+[06:44:41] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 0.4583946132606509
+[06:44:41] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 0.7833475811324881
+[06:44:41] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 1.1310988835097842
+[06:44:48] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3477461014731489
+[06:44:48] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3477461014731489
+[06:44:48] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3477461014731489
+[06:44:48] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3477461014731489
+[06:45:24] [Server thread/INFO]: Tortug4sete issued server command: /tp phnglui_1
+[06:45:24] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to phnglui_1]
+[06:45:45] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[06:45:45] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[06:45:53] [Server thread/INFO]: kedoshim issued server command: /tp phnglui_1
+[06:45:53] [Server thread/INFO]: [kedoshim: Teleported kedoshim to phnglui_1]
+[06:46:33] [Server thread/INFO]: Tortug4sete was blown up by Creeper
+[06:46:54] [Async Chat Thread - #9/INFO]: [Not Secure] <Tortug4sete> nn arrumem o trilho, pff
+[06:47:24] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[06:47:24] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[06:52:26] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
+[06:52:26] [Server thread/INFO]: phnglui_1 left the game
+[06:54:16] [Server thread/INFO]: kedoshim issued server command: /tp Tortug4sete
+[06:54:16] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Tortug4sete]
+[06:56:13] [Server thread/INFO]: Tortug4sete issued server command: /time set day
+[06:56:13] [Server thread/INFO]: [Tortug4sete: Set the time to 1000]
+[06:58:19] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.47609609360642935
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 1.9714027321756475
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 3.4744313211128883
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 4.985542014533621
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.506990102520831
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5148757446281707
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5228476135027904
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5310510106435231
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5387763390040163
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5467264662777325
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5546938197401232
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5627837413539964
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5473968932133175
+[06:58:20] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.5093754938941402
+[06:59:30] [Server thread/INFO]: Villager EntityVillager['Villager'/138, uuid='e32e0540-aa72-47f7-a5a5-67bae5d126d0', l='ServerLevel[world]', x=1231.88, y=60.00, z=669.70, cpos=[76, 41], tl=1312323, v=true] died, message: 'Villager was squished too much'
+[07:02:46] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 0.7181950106046315
+[07:02:46] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 1.8273447687477073
+[07:02:46] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 2.944972493217392
+[07:02:46] [Server thread/WARN]: Boat with Chest (vehicle of Tortug4sete) moved wrongly! 4.071289388632977
+[07:03:03] [Server thread/INFO]: Villager EntityVillager['Villager'/172, uuid='7f0ce2a4-e106-4965-a84e-153f7e29df80', l='ServerLevel[world]', x=1231.85, y=60.65, z=669.70, cpos=[76, 41], tl=1199182, v=true] died, message: 'Villager was squished too much'
+[07:03:17] [Server thread/INFO]: Facultativo lost connection: Disconnected
+[07:03:17] [Server thread/INFO]: Facultativo left the game
+[07:05:20] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 0.29151493397898776
+[07:05:20] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 0.40148057812666593
+[07:05:21] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 0.4553498165828387
+[07:05:21] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 0.5462330056882365
+[07:06:06] [Server thread/INFO]: Tortug4sete issued server command: /time set day
+[07:06:06] [Server thread/INFO]: [Tortug4sete: Set the time to 1000]
+[07:06:33] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.41241436235731044
+[07:06:33] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.6132688999027778
+[07:06:33] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8101063505283719
+[07:11:29] [Server thread/INFO]: Tortug4sete issued server command: /tp 1200 65 600
+[07:11:29] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to 1200.500000, 65.000000, 600.500000]
+[07:13:10] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[07:13:10] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[07:15:54] [Server thread/INFO]: Tortug4sete issued server command: /time set day
+[07:15:54] [Server thread/INFO]: [Tortug4sete: Set the time to 1000]
+[07:22:49] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6904552260050423
+[07:22:50] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.48774673734567386
+[07:22:50] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.6390051561290306
+[07:22:50] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 3.3877204049306613
+[07:22:50] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 2.200624541835964
+[07:22:50] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.4659801918978701
+[07:22:50] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3652051002379153
+[07:23:54] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.27607904188585053
+[07:24:28] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.4251778070947694
+[07:24:28] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.9522872017394093
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4607219117576733
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.0623803747876082
+[07:24:28] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.468854387126612
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.6919169166467327
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 2.299862621614011
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.37599968992526556
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.25920020931516774
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.35987551853054356
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.1385959446483866
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.9409598626805291
+[07:24:28] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 2.7666133107804853
+[07:24:54] [Async Chat Thread - #10/INFO]: [Not Secure] <Tortug4sete> asdasd
+[07:25:25] [Server thread/INFO]: Tortug4sete issued server command: /time set day
+[07:25:25] [Server thread/INFO]: [Tortug4sete: Set the time to 1000]
+[07:30:02] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3151893236365595
+[07:30:02] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.43290830797377566
+[07:30:02] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.3110342568161286
+[07:30:04] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.1336589125913008
+[07:30:04] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.6502897280964532
+[07:30:04] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.11688951294758
+[07:30:04] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.6267536909523983
+[07:30:04] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.1004555009768637
+[07:30:04] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.6362277181177376
+[07:30:21] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4180753168093361
+[07:31:19] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8885159883112124
+[07:31:19] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 2.2672873174826123
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.3841659788188565
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.4169423675247117
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 2.4690445425784446
+[07:32:39] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.9574158721389381
+[07:32:39] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.7402463456031967
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 3.5400777296531203
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.4606958421672971
+[07:32:39] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 2.5134790473810824
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.47890406508710726
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.4967409117338093
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5142152736648313
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5312867205770999
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5480790331810681
+[07:32:39] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5645350900713595
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.7740734012347161
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5963842034297215
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6118669568502355
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6270513766548333
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.641932708124699
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6563993311002321
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6306939284524731
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6055026333673368
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5808151637034484
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5566214429619549
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5329115961738466
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5096759458692475
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.48690500812756454
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.0894235534349548
+[07:32:40] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.2212375343431745
+[07:32:40] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4536274537523468
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8341369585986627
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.524385052211187
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8534621589576545
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5131118723589339
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8706963735261297
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.40430591961899154
+[07:32:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5293847303503298
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6752247411523058
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.8319340865907634
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 3.0014747284667465
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 4.146862433846081
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6184785957691474
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5225250046491965
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.3899255109417936
+[07:33:29] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.6641984538111956
+[07:33:30] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.5377132429800895
+[07:33:30] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.39762400686146293
+[07:33:30] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.127117339414782
+[07:33:30] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8117946194729484
+[07:33:30] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 5.467839490773031
+[07:33:30] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 3.9550065396285845
+[07:33:30] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.39049876286844665
+[07:33:30] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8142857845934941
+[07:33:35] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5972434587903308
+[07:33:35] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.1782678736895422
+[07:33:35] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.73484278997089
+[07:33:35] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4119456624051736
+[07:33:35] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4119456624051736
+[07:33:35] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4119456624051736
+[07:36:23] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3668096298686123
+[07:36:24] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.30686000941318525
+[07:36:24] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.30720929474682634
+[07:36:47] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.33745565519666343
+[07:36:47] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5096787228862922
+[07:36:47] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.633307262541166
+[07:36:47] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4470567175758333
+[07:36:52] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4700154740501432
+[07:36:52] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5471482753568466
+[07:36:52] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5918727990586774
+[07:37:18] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.4945533057002649
+[07:37:18] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5977999535198251
+[07:37:18] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.7286854325168406
+[07:37:18] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.8876714491907478
+[07:37:19] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.4258750253202095
+[07:37:40] [Server thread/INFO]: Tortug4sete issued server command: /time set day
+[07:37:40] [Server thread/INFO]: [Tortug4sete: Set the time to 1000]
+[07:38:45] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5296771943840213
+[07:38:45] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.2286777004869691
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3222255416684163
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.3533138715487496
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 2.397183407794813
+[07:38:57] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.8669252878453619
+[07:38:57] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.6668925397763985
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 3.4531352616810693
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3713327998773934
+[07:38:57] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 2.477549030221013
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3822239410764894
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3924441749520611
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.401568780795202
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4093193345165389
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4169302888372499
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.42393293506279406
+[07:38:57] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.0495408024832216
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.42985308406863965
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4343929290968447
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4389153413155782
+[07:38:57] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4434204998799487
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.44739101646769086
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4505239181902425
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4542181033595796
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4584368858209871
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.25891003528658985
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.2676333408251992
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.46264146786961646
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.2751309984921022
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.44285453277692
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.28408401083203216
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.42359866719047545
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.29336421887160213
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.4048560375682939
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.38655097008813755
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.30238973928146606
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3686376266207674
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.31069466245571675
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.32079364753562345
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.35125298334205013
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.331569398796546
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.33031264618139744
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.3424596121392085
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.30979111536456116
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.35260095893892185
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.2896800147726424
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.3642373806324599
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.2699711358089587
+[07:38:58] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.36765741477711344
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.2506564340486648
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.2653133657397575
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.27916624668804957
+[07:38:58] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.2935822731774351
+[07:38:59] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.3730002258012064
+[07:38:59] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.7367359210063569
+[07:38:59] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.225470425115418
+[07:39:37] [User Authenticator #2/INFO]: UUID of player Herobrine is 25966168-dc9c-360c-8f32-ed022bfa1070
+[07:39:37] [Server thread/INFO]: Herobrine joined the game
+[07:39:37] [Server thread/INFO]: Herobrine[/127.0.0.1:53834] logged in with entity id 120539 at ([world]1283.5, 66.0, 648.5)
+[07:39:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Herobrine> Hello. I'm a friendly bot that scans the internet for Minecraft servers.
+[07:39:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Herobrine> Your server is set as offline-mode, which means hackers can join as any username. You must do one the following to secure your server:
+[07:39:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Herobrine> 1. Install a plugin such as AuthMe or enable online-mode in the server.properties file
+[07:39:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Herobrine> 2. Enable a whitelist to stop unauthorized usernames from joining
+[07:39:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Herobrine> 3. Enable backups to prevent permanent damage
+[07:39:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Herobrine> - mat | FAQ: https://matdoes.dev/matscan
+[07:39:40] [Server thread/INFO]: Herobrine lost connection: Disconnected
+[07:39:40] [Server thread/INFO]: Herobrine left the game
+[07:43:37] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 1.1528359121309677
+[07:43:37] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.8588398331460212
+[07:43:37] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.748960988985118
+[07:43:37] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 0.5680673967358416
+[07:43:37] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.3474399375563735
+[07:45:33] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.3784499241630783
+[07:45:33] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 2.6679529052619273
+[07:45:33] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.5466642172509637
+[07:45:33] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 2.2839398448352313
+[07:45:33] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 1.1779137198459466
+[07:45:33] [Server thread/WARN]: Boat with Chest (vehicle of kedoshim) moved wrongly! 0.5143487945776997
+[07:47:10] [Server thread/INFO]: kedoshim lost connection: Disconnected
+[07:47:10] [Server thread/INFO]: kedoshim left the game
+[07:47:32] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
+[07:47:32] [Server thread/INFO]: Tortug4sete left the game
+[07:47:37] [Server thread/INFO]: Stopping server
+[07:47:37] [Server thread/INFO]: Saving players
+[07:47:37] [Server thread/INFO]: Saving worlds
+[07:47:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:47:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:47:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:47:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Saved 33 block chunks, 273 entity chunks, 2 poi chunks in world 'world' in 0.27s
+[07:47:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:47:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[07:47:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:47:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:47:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[07:47:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:47:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:47:38] [Server thread/INFO]: Flushing Chunk IO
+[07:47:38] [Server thread/INFO]: Closing Thread Pool
+[07:47:38] [Server thread/INFO]: Closing Server
