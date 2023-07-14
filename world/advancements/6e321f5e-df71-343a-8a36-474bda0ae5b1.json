@@ -11,6 +11,7 @@
       "minecraft:beach": "2023-07-13 05:35:12 +0000",
       "minecraft:river": "2023-07-13 02:43:52 +0000",
       "minecraft:snowy_plains": "2023-07-13 05:44:24 +0000",
+      "minecraft:swamp": "2023-07-14 17:19:35 +0000",
       "minecraft:cold_ocean": "2023-07-13 05:38:12 +0000",
       "minecraft:forest": "2023-07-13 20:06:33 +0000",
       "minecraft:ice_spikes": "2023-07-13 21:09:38 +0000",
@@ -117,6 +118,7 @@
       "minecraft:skeleton": "2023-07-13 02:50:09 +0000",
       "minecraft:spider": "2023-07-13 03:49:52 +0000",
       "minecraft:creeper": "2023-07-13 21:57:01 +0000",
+      "minecraft:slime": "2023-07-14 17:23:04 +0000",
       "minecraft:zombie": "2023-07-13 05:54:32 +0000",
       "minecraft:drowned": "2023-07-13 05:12:55 +0000"
     },
@@ -1370,15 +1372,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:nether/root": {
     "criteria": {
-      "has_stone": "2023-07-13 21:56:04 +0000"
+      "entered_nether": "2023-07-13 19:44:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-07-13 19:44:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2023-07-13 19:44:58 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-07-13 19:45:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2023-07-13 19:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2023-07-13 19:47:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2023-07-13 20:04:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2023-07-13 20:04:51 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
       "has_melon": "2023-07-13 20:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-07-13 20:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-07-13 20:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2023-07-13 21:56:04 +0000"
     },
     "done": true
   },
@@ -1394,45 +1456,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2023-07-13 20:19:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2023-07-13 19:47:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:soul_sand_valley": "2023-07-13 19:44:58 +0000"
-    },
-    "done": false
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2023-07-13 19:44:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-07-13 21:56:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2023-07-13 20:04:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2023-07-13 19:44:57 +0000"
     },
     "done": true
   },
@@ -1448,12 +1474,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2023-07-13 20:19:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2023-07-13 21:56:04 +0000"
@@ -1463,12 +1483,6 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-07-13 21:56:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2023-07-13 19:47:01 +0000"
     },
     "done": true
   },
@@ -1496,18 +1510,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2023-07-13 20:04:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2023-07-13 19:45:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-07-13 21:56:04 +0000"
@@ -1517,6 +1519,54 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2023-07-13 21:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:temperate": "2023-07-14 16:48:31 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2023-07-14 16:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2023-07-14 16:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2023-07-14 16:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2023-07-14 16:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2023-07-14 16:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2023-07-14 16:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-07-14 16:52:48 +0000"
     },
     "done": true
   },

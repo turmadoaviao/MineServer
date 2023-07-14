@@ -1,43 +1,430 @@
-[23:48:32] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:48:37] [ServerMain/INFO]: Loaded 7 recipes
-[23:48:39] [Server thread/INFO]: Starting minecraft server version 1.20
-[23:48:39] [Server thread/WARN]: ****************************
-[23:48:39] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[23:48:39] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[23:48:39] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[23:48:39] [Server thread/WARN]: ****************************
-[23:48:39] [Server thread/INFO]: Loading properties
-[23:48:39] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[23:48:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:48:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:48:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:45:21] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:45:25] [ServerMain/INFO]: Loaded 7 recipes
+[16:45:26] [Server thread/INFO]: Starting minecraft server version 1.20
+[16:45:26] [Server thread/WARN]: ****************************
+[16:45:26] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[16:45:26] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[16:45:26] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[16:45:26] [Server thread/WARN]: ****************************
+[16:45:26] [Server thread/INFO]: Loading properties
+[16:45:26] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[16:45:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:45:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:45:27] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[23:48:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[23:48:41] [Server thread/INFO]: Default game type: SURVIVAL
-[23:48:41] [Server thread/INFO]: Generating keypair
-[23:48:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:48:42] [Server thread/INFO]: Using epoll channel type
-[23:48:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:48:42] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[23:48:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:48:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:48:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:48:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:48:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:48:42] [Server thread/INFO]: Preparing level "world"
-[23:48:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:49:00] [Server thread/INFO]: Time elapsed: 10346 ms
-[23:49:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:49:00] [Server thread/INFO]: Time elapsed: 59 ms
-[23:49:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:49:00] [Server thread/INFO]: Time elapsed: 28 ms
-[23:49:00] [Server thread/INFO]: Running delayed init tasks
-[23:49:00] [Server thread/INFO]: Done (21.694s)! For help, type "help"
-[23:49:00] [Server thread/INFO]: Stopping server
-[23:49:00] [Server thread/INFO]: Saving players
-[23:49:00] [Server thread/INFO]: Saving worlds
-[23:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:49:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:49:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:49:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:45:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:45:28] [Server thread/INFO]: Default game type: SURVIVAL
+[16:45:28] [Server thread/INFO]: Generating keypair
+[16:45:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:45:28] [Server thread/INFO]: Using epoll channel type
+[16:45:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:45:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:45:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:45:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:45:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:45:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:45:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:45:28] [Server thread/INFO]: Preparing level "world"
+[16:45:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:45:31] [Server thread/INFO]: Time elapsed: 1209 ms
+[16:45:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:45:31] [Server thread/INFO]: Time elapsed: 388 ms
+[16:45:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:45:31] [Server thread/INFO]: Time elapsed: 235 ms
+[16:45:32] [Server thread/INFO]: Running delayed init tasks
+[16:45:32] [Server thread/INFO]: Done (6.153s)! For help, type "help"
+[16:45:32] [Server thread/INFO]: Timings Reset
+[16:45:33] [User Authenticator #0/INFO]: UUID of player phnglui_1 is 614e55ea-6728-30b1-bc01-ed79bd828f47
+[16:45:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
+[16:45:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[16:45:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:45:43] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@e23ab68
+[16:45:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:43] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:45:43] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[16:45:43] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x00000008019e1618.run(Unknown Source)
+[16:45:43] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+[16:45:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:45:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:48] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
+[16:45:48] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[16:45:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:48] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:45:48] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@e23ab68
+[16:45:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:48] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:45:48] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[16:45:48] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x00000008019e1618.run(Unknown Source)
+[16:45:48] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+[16:45:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:48] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:45:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
+[16:45:53] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[16:45:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:53] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:45:53] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@e23ab68
+[16:45:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:53] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:45:53] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[16:45:53] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x00000008019e1618.run(Unknown Source)
+[16:45:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+[16:45:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:45:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
+[16:45:58] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[16:45:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:58] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:45:58] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@e23ab68
+[16:45:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:58] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:45:58] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[16:45:58] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:353)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x00000008019e1618.run(Unknown Source)
+[16:45:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+[16:45:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:45:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:45:58] [Server thread/INFO]: phnglui_1 joined the game
+[16:45:58] [Server thread/INFO]: phnglui_1[/127.0.0.1:38636] logged in with entity id 1 at ([world]1391.4571386418431, 113.0, 1069.300000011921)
+[16:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26431ms or 528 ticks behind
+[16:46:18] [Server thread/INFO]: phnglui_1 issued server command: /gamemode creative
+[16:46:18] [Server thread/INFO]: [phnglui_1: Set own game mode to Creative Mode]
+[16:46:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14851ms or 297 ticks behind
+[16:47:03] [User Authenticator #1/INFO]: UUID of player kedoshim is 6e321f5e-df71-343a-8a36-474bda0ae5b1
+[16:47:03] [Server thread/INFO]: kedoshim joined the game
+[16:47:03] [Server thread/INFO]: kedoshim[/127.0.0.1:33632] logged in with entity id 677 at ([world]1210.0973205572172, 46.50678955265592, 714.0234736754483)
+[16:47:38] [Server thread/INFO]: kedoshim issued server command: /gamemode creative
+[16:47:38] [Server thread/INFO]: [kedoshim: Set own game mode to Creative Mode]
+[16:49:21] [Server thread/INFO]: phnglui_1 issued server command: /gamemode survival
+[16:49:21] [Server thread/INFO]: [phnglui_1: Set own game mode to Survival Mode]
+[16:50:05] [Server thread/INFO]: phnglui_1 issued server command: /gamemode creative
+[16:50:05] [Server thread/INFO]: [phnglui_1: Set own game mode to Creative Mode]
+[16:50:15] [Server thread/INFO]: phnglui_1 issued server command: /gamemode survival
+[16:50:15] [Server thread/INFO]: [phnglui_1: Set own game mode to Survival Mode]
+[16:51:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5206ms or 104 ticks behind
+[16:51:25] [Server thread/INFO]: kedoshim lost connection: Disconnected
+[16:51:25] [Server thread/INFO]: kedoshim left the game
+[16:51:54] [Server thread/INFO]: phnglui_1 issued server command: /locate structure minecraft:mansion
+[16:51:54] [Server thread/INFO]: Locating element minecraft:mansion took 569 ms
+[16:52:25] [User Authenticator #2/INFO]: UUID of player Facultativo is 8d931442-e82a-3def-9fb1-bdab35187dca
+[16:52:25] [Server thread/INFO]: Facultativo joined the game
+[16:52:25] [Server thread/INFO]: Facultativo[/127.0.0.1:56028] logged in with entity id 2984 at ([world]1236.300000011921, 64.0, 604.9806265305695)
+[16:52:26] [User Authenticator #2/INFO]: UUID of player kedoshim is 6e321f5e-df71-343a-8a36-474bda0ae5b1
+[16:52:26] [Server thread/INFO]: kedoshim joined the game
+[16:52:26] [Server thread/INFO]: kedoshim[/127.0.0.1:56038] logged in with entity id 3032 at ([world]1277.5169162765335, 63.0, 637.5576819252059)
+[16:52:48] [Server thread/INFO]: kedoshim has reached the goal [Sky's the Limit]
+[16:52:59] [Server thread/INFO]: Facultativo issued server command: /gamemode creative
+[16:52:59] [Server thread/INFO]: [Facultativo: Set own game mode to Creative Mode]
+[16:53:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5122ms or 102 ticks behind
+[16:54:40] [Server thread/INFO]: phnglui_1 issued server command: /gamemode spectator
+[16:54:40] [Server thread/INFO]: [phnglui_1: Set own game mode to Spectator Mode]
+[16:55:03] [Server thread/INFO]: phnglui_1 issued server command: /gamemode survival
+[16:55:03] [Server thread/INFO]: [phnglui_1: Set own game mode to Survival Mode]
+[16:55:34] [Server thread/INFO]: phnglui_1 issued server command: /tp 384 ~ 3120
+[16:55:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
+[16:55:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[16:55:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:55:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:55:43] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[16:55:43] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 24,195) in 'world']
+[16:55:44] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to 384.500000, 65.000000, 3120.500000]
+[16:55:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9999ms or 199 ticks behind
+[16:55:44] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world, chunkX=24, chunkZ=195, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=32, currentTicketLevel=32, totalNeighboursUsingThisChunk=4, fullNeighbourChunksLoadedBitset=2240, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[16:55:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:55:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:55:44] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
+[16:55:44] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/jdk.internal.misc.Unsafe.unpark(Native Method)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.locks.LockSupport.unpark(LockSupport.java:177)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.signalNext(AbstractQueuedSynchronizer.java:611)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1008)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:494)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.ArrayBlockingQueue.offer(ArrayBlockingQueue.java:353)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppender.transfer(AsyncAppender.java:179)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppender.append(AsyncAppender.java:158)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:683)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:641)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:624)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:560)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.Logger.log(Logger.java:162)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2040)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1907)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.slf4j.Log4jLogger.warn(Log4jLogger.java:245)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1139)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4628/0x00000008019e1618.run(Unknown Source)
+[16:55:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+[16:55:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:55:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:55:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:55:44] [Server thread/WARN]: phnglui_1 moved too quickly! -980.676163637127,0.0,2614.2148765397505
+[16:55:46] [Server thread/INFO]: phnglui_1 issued server command: /tp Facultativo
+[16:55:46] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to Facultativo]
+[16:56:07] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[16:56:07] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:00:15] [Server thread/INFO]: Facultativo has made the advancement [Diamonds!]
+[17:01:28] [Server thread/INFO]: kedoshim issued server command: /time set day
+[17:01:28] [Server thread/INFO]: [kedoshim: Set the time to 1000]
+[17:01:31] [Server thread/INFO]: Villager EntityVillager['Librarian'/80, uuid='78fdcc25-3f8a-456c-bb11-4bef5a66a4d8', l='ServerLevel[world]', x=1185.50, y=47.00, z=748.30, cpos=[74, 46], tl=3503235, v=true] died, message: 'Librarian was slain by Zombie'
+[17:02:28] [Server thread/INFO]: Facultativo issued server command: /gamemode survival
+[17:02:28] [Server thread/INFO]: [Facultativo: Set own game mode to Survival Mode]
+[17:03:09] [Server thread/INFO]: Facultativo has made the advancement [Suit Up]
+[17:03:51] [Server thread/INFO]: Facultativo issued server command: /gamemode creative
+[17:03:51] [Server thread/INFO]: [Facultativo: Set own game mode to Creative Mode]
+[17:04:39] [Server thread/INFO]: Facultativo issued server command: /gamemode survival
+[17:04:39] [Server thread/INFO]: [Facultativo: Set own game mode to Survival Mode]
+[17:05:51] [Server thread/INFO]: Facultativo has made the advancement [Isn't It Iron Pick]
+[17:05:57] [User Authenticator #3/INFO]: UUID of player Tortug4sete is 3d08b94b-dd3e-3fda-9e0a-36ae1a3f7722
+[17:05:57] [Server thread/INFO]: Tortug4sete joined the game
+[17:05:57] [Server thread/INFO]: Tortug4sete[/127.0.0.1:45232] logged in with entity id 16218 at ([world]1291.2685849172983, 73.3558789472609, 705.9482230121646)
+[17:06:08] [Server thread/INFO]: Tortug4sete issued server command: /gamemode survival
+[17:06:08] [Server thread/INFO]: [Tortug4sete: Set own game mode to Survival Mode]
+[17:06:16] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[17:06:16] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[17:06:18] [Server thread/INFO]: Tortug4sete fell from a high place
+[17:06:23] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[17:06:23] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[17:07:23] [Server thread/INFO]: Tortug4sete issued server command: /tp kedoshim
+[17:07:23] [Server thread/INFO]: [Tortug4sete: Teleported Tortug4sete to kedoshim]
+[17:08:24] [Server thread/INFO]: kedoshim issued server command: /tp 1300 65 650
+[17:08:24] [Server thread/INFO]: [kedoshim: Teleported kedoshim to 1300.500000, 65.000000, 650.500000]
+[17:08:32] [Server thread/INFO]: kedoshim issued server command: /clear kedoshim
+[17:08:32] [Server thread/INFO]: [kedoshim: Removed 17 item(s) from player kedoshim]
+[17:08:49] [Server thread/INFO]: kedoshim issued server command: /gamemode survival
+[17:08:49] [Server thread/INFO]: [kedoshim: Set own game mode to Survival Mode]
+[17:09:49] [Server thread/INFO]: kedoshim issued server command: /tp phnglui_1
+[17:09:49] [Server thread/INFO]: [kedoshim: Teleported kedoshim to phnglui_1]
+[17:16:51] [Server thread/INFO]: phnglui_1 issued server command: /tp 384 ~ 3120
+[17:16:51] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to 384.500000, 53.000000, 3120.500000]
+[17:16:54] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:16:54] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:17:07] [Server thread/INFO]: phnglui_1 issued server command: /tp 384 70 3120
+[17:17:07] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to 384.500000, 70.000000, 3120.500000]
+[17:17:23] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:17:23] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:18:10] [Server thread/INFO]: phnglui_1 issued server command: /tp -1000 -100 ~
+[17:18:10] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to -999.500000, -100.000000, 305.300000]
+[17:18:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5230ms or 104 ticks behind
+[17:18:16] [Server thread/WARN]: phnglui_1 moved too quickly! 0.0,-11.2134039128713,0.0
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 14.619607904658096,0.0,14.395227369070483
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 15.187746411869057,0.0,15.316789782566218
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 15.739953221140695,0.0,16.25965916597437
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 16.27567568126301,0.0,17.22329949914041
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 16.795087749197137,0.0,18.207273674825274
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! -16.56487548596988,0.0,-12.549754790687757
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 1.318478764515703,0.0,-16.87576905176627
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 1.318478764515703,0.0,-16.87576905176627
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 1.318478764515703,0.0,-16.87576905176627
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 1.318478764515703,0.0,-16.87576905176627
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 1.318478764515703,0.0,-16.87576905176627
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 1.756853307241272,0.0,-16.521996964332914
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! -22.420218138289556,0.0,-10.883659738866697
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 0.0,0.0,0.0
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 2.186744125402811,0.0,-16.13530136951175
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! -1.1588659067083427,0.0,-0.24958881946804468
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 2.6082979102909576,0.0,-15.716340555548697
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! -2.3324049308575923,0.0,-0.5071220989875087
+[17:18:16] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! 0.8309413828587822,0.0,-22.00007943871799
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 17.754655826090357,0.0,9.87355298806159
+[17:18:16] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 1.0769886672503617
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 6.849253850784635
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 6.849253850784635
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 6.849253850784635
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 6.849253850784635
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! -1.643235847167034,0.0,21.006956989838727
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 8.065959842324673
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 9.27968301879423
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! -18.972747351165708,0.0,-9.91710854554833
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 6.849253850784635
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 6.849253850784635
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 8.073705069950847
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 9.31303908031532
+[17:18:17] [Server thread/WARN]: Boat (vehicle of kedoshim) moved wrongly! 10.567178990766251
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! -0.02459606687421001,0.0,-22.347845091485567
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 10.876417550271526
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 11.287325562585465
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 11.690015397998536
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved too quickly! -1.7091889729119885,0.0,20.469172083528804
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 12.471394753846823
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 12.8504032044969
+[17:18:17] [Server thread/WARN]: Boat (vehicle of Tortug4sete) moved wrongly! 13.22183149336297
+[17:18:19] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:18:19] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:18:19] [Server thread/INFO]: phnglui_1 fell from a high place
+[17:18:24] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:18:24] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:18:27] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:18:27] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:18:29] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:18:29] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:19:00] [Server thread/INFO]: Tortug4sete lost connection: Disconnected
+[17:19:00] [Server thread/INFO]: Tortug4sete left the game
+[17:19:07] [Server thread/INFO]: phnglui_1 issued server command: /tp -1000 65 -100
+[17:19:09] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to -999.500000, 65.000000, -99.500000]
+[17:19:09] [Server thread/WARN]: phnglui_1 moved too quickly! -2136.800000011921,2.0,-464.0600472219029
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 15.817138320316872,0.0,-20.221535953704148
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 16.808546297182602,0.0,-21.09809804460491
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 17.81564407185556,0.0,-21.97552662534946
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 18.837512485280286,0.0,-22.854928742588527
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 19.873227035190666,0.0,-23.737349691049246
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 20.9218646326176,0.0,-24.623767809408093
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 21.98250004577335,0.0,-25.51510582367777
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 23.05421252177007,0.0,-26.412225816455674
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 24.136509072559193,0.0,-27.315378998106723
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 25.201180884456107,0.0,-28.20344069474379
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 26.248649411217002,0.0,-29.076617079172024
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 27.279372214307614,0.0,-29.935037261422963
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 28.293832196901576,0.0,-30.778751461647715
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 29.292523765164333,0.0,-31.607727435836466
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 30.27593502786158,0.0,-32.42184756371506
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 31.244526722145793,0.0,-33.22090624948382
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 32.193746601018574,0.0,-34.00398377677803
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 33.12398210041897,0.0,-34.77139976846237
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 34.035612907574205,0.0,-35.52346745495035
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 34.92901111597416,0.0,-36.260493802053105
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 35.80454137724655,0.0,-36.98277963627146
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 36.662561049992746,0.0,-37.69061976758198
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 37.53972935693014,0.0,-38.36752050933461
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 38.43401703800055,0.0,-39.010920901119135
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 39.343201674968896,0.0,-39.61853398149509
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 40.26489557152922,0.0,-40.18834440000856
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 41.19658323467593,0.0,-40.71861843748184
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 42.135647729652646,0.0,-41.207898678867025
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 43.079961742373825,0.0,-41.65541644238846
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 44.02796814207477,0.0,-42.060965612882114
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 44.97871479919513,0.0,-42.424801812143585
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 45.93186264291171,0.0,-42.74757741522839
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 46.88767368123581,0.0,-43.030312172623326
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 47.846978810725204,0.0,-43.27439565653313
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 48.81111939073435,0.0,-43.48161366808992
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 49.78133802469961,0.0,-43.653754731827235
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 35.916449647412946,0.0,-24.44793432896836
+[17:19:09] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 36.90216866940477,0.0,-24.555271119469126
+[17:19:10] [Server thread/WARN]: Boat (vehicle of kedoshim) moved too quickly! 37.89712734207751,0.0,-24.632862895747508
+[17:19:18] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:19:18] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:19:34] [Server thread/INFO]: kedoshim issued server command: /tp -1000 70 -100
+[17:19:35] [Server thread/INFO]: [kedoshim: Teleported kedoshim to -999.500000, 70.000000, -99.500000]
+[17:19:48] [Server thread/INFO]: phnglui_1 issued server command: /locate biome minecraft:swamp
+[17:19:50] [Server thread/INFO]: Locating element minecraft:swamp took 1812 ms
+[17:19:51] [Server thread/INFO]: kedoshim issued server command: /tp phnglui_1
+[17:19:51] [Server thread/INFO]: [kedoshim: Teleported kedoshim to phnglui_1]
+[17:19:58] [Server thread/INFO]: phnglui_1 issued server command: /tp -96 63 599
+[17:19:58] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to -95.500000, 63.000000, 599.500000]
+[17:20:02] [Server thread/INFO]: kedoshim issued server command: /tp -1000 70 -100
+[17:20:02] [Server thread/INFO]: [kedoshim: Teleported kedoshim to -999.500000, 70.000000, -99.500000]
+[17:20:34] [Server thread/INFO]: phnglui_1 issued server command: /tp kedoshim
+[17:20:34] [Server thread/INFO]: [phnglui_1: Teleported phnglui_1 to kedoshim]
+[17:21:23] [Server thread/INFO]: phnglui_1 lost connection: Disconnected
+[17:21:23] [Server thread/INFO]: phnglui_1 left the game
+[17:22:13] [Server thread/INFO]: kedoshim issued server command: /tp 1300 75 200
+[17:22:13] [Server thread/INFO]: [kedoshim: Teleported kedoshim to 1300.500000, 75.000000, 200.500000]
+[17:22:22] [Server thread/INFO]: kedoshim issued server command: /tp Facultativo
+[17:22:22] [Server thread/INFO]: [kedoshim: Teleported kedoshim to Facultativo]
+[17:24:19] [Server thread/INFO]: kedoshim issued server command: /tp 1300 75 200
+[17:24:19] [Server thread/INFO]: [kedoshim: Teleported kedoshim to 1300.500000, 75.000000, 200.500000]
+[17:25:46] [Server thread/INFO]: kedoshim lost connection: Disconnected
+[17:25:46] [Server thread/INFO]: kedoshim left the game
+[17:25:49] [Server thread/INFO]: Facultativo lost connection: Disconnected
+[17:25:49] [Server thread/INFO]: Facultativo left the game
+[17:25:49] [Server thread/INFO]: Stopping server
+[17:25:49] [Server thread/INFO]: Saving players
+[17:25:49] [Server thread/INFO]: Saving worlds
+[17:25:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:25:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:25:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:25:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:25:49] [Server thread/INFO]: [ChunkHolderManager] Saved 81 block chunks, 366 entity chunks, 9 poi chunks in world 'world' in 0.53s
+[17:25:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:25:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[17:25:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:25:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:25:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:25:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:25:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:25:50] [Server thread/INFO]: Flushing Chunk IO
+[17:25:50] [Server thread/INFO]: Closing Thread Pool
+[17:25:50] [Server thread/INFO]: Closing Server
